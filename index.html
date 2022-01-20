@@ -5,22 +5,59 @@
 	</title>
 	<style>
 		p {
-			font-size: 24px;
+			font-size: 20px;
 			font-family: "Century Gothic";
 			color: #1A1A1A;
+		}
+
+		.cfp {
+			background-color: #4982E9;
+			color: white;
+			font-size: 24px;
+			font-family: "Century Gothic";
+			border: none;
+			padding: 6px 20px 6px 20px;
+			border-radius: 8px;
+		}
+		.cfp:hover {
+			background-color: #49C8D8;
+			color: white;
+		}
+
+		.main-container {
+			width: 800px;
+		}
+		.main-logo {
+			width: 640px;
+		}
+
+		@media (max-width: 800px) {
+			.main-container {
+				width: 100%;
+			}
+			.main-logo {
+				width: 540px;
+			}
+		}
+		@media (max-width: 600px) {
+			.main-logo {
+				width: 100%;
+			}
 		}
 	</style>
 </head>
 <body style="background-color:#FFF8F2;">
 	<center>
-		<div style="width: 800px;">
+		<div class="main-container">
 			<div style="height: 20px"></div>
 
-			<img src="./logo-home.png" height=550>
+			<img class="main-logo" src="./logo-home.png">
 
 			<p>¡Estamos buscando conferencistas! Si conoces o eres una persona que quiere ser parte de este evento, por favor ingresa tus datos y comparte este formulario para que más personas puedan ser parte del mismo.</p>
 
-			<p><a href="https://bit.ly/cfp-IWD2022">Call for Papers</a></p>
+			<!--<p><a class="button" href="https://bit.ly/cfp-IWD2022">Call for Papers</a></p>-->
+
+			<p><button class="button cfp" onclick="location.href='https://bit.ly/cfp-IWD2022'" type="button">Call for Papers</button></p>
 
 			<p>El CFP estará abierto hasta el 20 de febrero 2022</p>
 		</div>
