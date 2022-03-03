@@ -1,2 +1,2 @@
-# iwd-2022
-IWD 2022 @ Universidad Galileo
+# iwd-2021
+Page for the event IWD @ Universidad Galileo
