@@ -380,7 +380,11 @@
                     html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
                     html += '</span>';
                     html += '<span class="staff-name">';    /* find me staff */
-                    html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
+
+                    if (speaker.nationality != "empty" && speaker.nationality != "") {
+                        html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
+                    }
+
                     //html += speaker.name;
                     html += event.speaker;
                     html += '</span>';
@@ -505,7 +509,11 @@
         html += '</span>';
 
         html += '<span class="staff-name">';
-        html += `<span class="staff-flag"><img src="assets/img/paises/${findedStaff.nationality}.png"></span>`;
+
+        if (findedStaff.nationality != "empty" && findedStaff.nationality != "") {
+            html += `<span class="staff-flag"><img src="assets/img/paises/${findedStaff.nationality}.png"></span>`;
+        }
+
         html += name;
         html += '</span>';
         //html += `<span class="staff-company">${findedStaff.company}</span>`;
@@ -613,7 +621,11 @@
             html += '</span>';
             html += '</span>';
             html += '<span class="staff-name">';
-            html += `<span class="staff-flag"><img src="assets/img/paises/${element.nationality}.png"></span>`;
+
+            if (element.nationality != "empty" && element.nationality != "") {
+                html += `<span class="staff-flag"><img src="assets/img/paises/${element.nationality}.png"></span>`;
+            }
+            
             html += element.name;
             html += '</span>';
             //html += '<span class="staff-company">';
@@ -888,9 +900,6 @@
                 hideIndex();
                 generateConduct();
             }
-        } else {
-            // Redirect
-            window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
         }
 
         $('#innovation-logo')[0].onload = ()=>{

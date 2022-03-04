@@ -1,425 +1,467 @@
 var staff = [
+    {
+        "name": "Andrea Cabrera",
+        "short": "",
+        "information": "Fundadora de Wonder Woman Guatemala.\nImpacto a +3000 en programas de empoderamiento econ\u00f3mico\nGalardonada por el bicentenario de Guatemala\nCertificada en metodolog\u00edas de g\u00e9nero por la organizaci\u00f3n internacional del trabajo\nCertificada en metodolog\u00edas disruptivas por el instituto CINMAn de Israel\nDocente y mentora de emprendimiento femenino",
+        "image": "AndreaCabrera.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Astrid Guill\u00e9n",
+        "short": "",
+        "information": "Tengo 36 a\u00f1os, soy mam\u00e1 y esposa. \nEstudi\u00e9 psic\u00f3loga cl\u00ednica, atiendo paciente adolescentes y adultos, tambi\u00e9n soy coordinadora y catedr\u00e1tica de la universidad internaciones en la escuela de psicolog\u00eda.\n\nMe gusta mucho trabajar con personas y compartir mis conocimientos.\n",
+        "image": "AstridGuillen.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Andrea Lara",
+        "short": "",
+        "information": "Andrea Lara es candidata a doctorado de la Universidad de Graz en Austria, tiene una maestr\u00eda en Ingenier\u00eda Biom\u00e9dica de la Universidad de Luebeck en Alemania y es ingeniera en electr\u00f3nica graduada de Universidad Galileo. Tiene experiencia en el dise\u00f1o y desarrollo de herramientas de software m\u00e9dico, trabaj\u00f3 como investigadora en del departamento de Software M\u00e9dico del Instituto de Investigaci\u00f3n alem\u00e1n Fraunhofer IBMT.\n\nActualmente, es directora del departamento de Ingenier\u00eda Biom\u00e9dica de Universidad Galileo donde dirige la Maestr\u00eda y el Laboratorio de Investigaci\u00f3n Biom\u00e9dica donde trabajan proyectos de investigaci\u00f3n de algoritmos de inteligencia artificial aplicados al an\u00e1lisis y procesamiento de im\u00e1genes m\u00e9dicas.",
+        "image": "AndreaLara.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Annella Marcano",
+        "short": "",
+        "information": "Mi nombre es Annella Marcano, tengo 25 a\u00f1os, soy venezolana, periodista y blogger. Cre\u00e9 Jevitas Intensas una comunidad que acompa\u00f1a a mujeres hispanas a vivir una vida ligera, emprender online y ocupar espacios con sus ideas. Tengo 6 a\u00f1os siendo creativa de marcas y actualmente ayudo a mujeres a mejorar sus comunicaciones y a dise\u00f1ar productos y servicios.",
+        "image": "AnnellaMarcano.jpg",
+        "nationality": "Venezuela"
+    },
+    {
+        "name": "Maritza Moreno",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Mar\u00eda Alejandra Monz\u00f3n Gir\u00f3n",
+        "short": "",
+        "information": "Tengo 31 a\u00f1os, psic\u00f3loga cl\u00ednica con especialidad en el deporte, con maestr\u00eda en enfoques psicoterap\u00e9uticos, en deporte y estudiando neurociencias, con certificado en EMDR, AIT y tambi\u00e9n con experiencia en el \u00e1rea de Recursos Humanos. \nSoy la hermana menor, solamente somos dos hijos, vivo con mi padre y me encantar\u00eda compartir mi experiencia en el \u00e1mbito deportivo, no ha sido f\u00e1cil pero tampoco imposible.",
+        "image": "MariaAlejandraMonzonGiron.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Alison Michelle Cuyuch Osorio",
+        "short": "",
+        "information": "Soy una persona carism\u00e1tica, extrovertida, comunicativa, positiva y llena de energ\u00eda. Me gusta entablar conversaci\u00f3n con las dem\u00e1s personas, soy el tipo de persona que busca motivar a las personas a nunca rendirse, porque no hay nada imposible. Me gusta salir de mi zona de confort y retarme para superar mis limites. \n\nA lo largo de mi vida he tenido muchos retos, los cuales los he afrontado con total \u00e9xito, tambi\u00e9n busco cumplir mis sue\u00f1os, soy una persona muy visionaria.",
+        "image": "AlisonMichelleCuyuchOsorio.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Ana Mar\u00eda Daly",
+        "short": "",
+        "information": "Soy egresada de la Universidad Cat\u00f3lica Andr\u00e9s Bello, con un MBA menci\u00f3n marketing, 20 a\u00f1os de experiencia en RRHH en empresas trasnacionales en Venezuela, uruguay y colombia. Desde hace 1 a\u00f1o funde mi empresa The Women Spot en Brasil, consultora de RRHH y experiencia de cliente, donde atendemos clientes del mundo corporativo y emprendimiento. Casada, mama de 2 peques Ignacio y Juan Pablo y entusiasmada en contribuir con crear un mundo m\u00e1s diverso y con m\u00e1s equidad de g\u00e9nero.",
+        "image": "AnaMariaDaly.jpeg",
+        "nationality": "Brasil"
+    },
+    {
+        "name": "Magdalena Waleska Aldana Segura",
+        "short": "",
+        "information": "Docente Universitario, Doctor en Desarrollo Sostenible , Doctor en Administraci\u00f3n P\u00fablica, Master en E-Learning, Licenciado en F\u00edsica Aplicada, Docente titular USAC y Docente U. Galileo. Ganador del premio Ford de Conservaci\u00f3n y ambiente 2010, IVLP Hidden No More 2017, Ganador del 80 faces of exchange.",
+        "image": "MagdalenaWaleskaAldanaSegura.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Roxana Amanda de Le\u00f3n Ruano",
+        "short": "",
+        "information": "Mi nombre es Roxana de Le\u00f3n m\u00e1s conocida como Roxy, 31 a\u00f1os de edad, gustemalteca, Licenciada en Ciencias de la Comunicaci\u00f3n y Locutora profesional con m\u00e1s de 6 a\u00f1os de experiencia en radio y tv, en el 2015 tuve la oportunidad de formar parte de un morning show como presentadora y tambi\u00e9n he tenido la oportunidad de trabajar en radio como Locutora para diferentes programas, uno de ellos, de mi autoria. Soy una mujer so\u00f1adora, apasionada por lo que hago. Hace algunos a\u00f1os surgi\u00f3 la idea con un colega de compartir conocimientos de locuci\u00f3n y producci\u00f3n radiof\u00f3nica a trav\u00e9s de la creaci\u00f3n de un diplomado y de esa manera dar a conocer nuestras t\u00e9cnicas y herramientas para que las nuevas generaciones conozcan el maravilloso mundo de la comunicaci\u00f3n a trav\u00e9s de la locuci\u00f3n.",
+        "image": "RoxanaAmandadeLeonRuano.png",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Barbara Guerra",
+        "short": "",
+        "information": "Barbara Guerra, 30 a\u00f1os, dise\u00f1adora gr\u00e1fica, fot\u00f3grafa de conciertos y nadadora de aguas abiertas",
+        "image": "BarbaraGuerra.png",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Mar\u00eda Mercedes Posadas G\u00f3mez",
+        "short": "",
+        "information": "Hola soy Mercedes. Ingeniera en Mecatr\u00f3nica y experta en capacitaci\u00f3n. Me apasiona el desarrollo profesional, apoyar a mujeres, aprender y la m\u00fasica.",
+        "image": "MariaMercedesPosadasGomez.png",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Vera Sofia Letona",
+        "short": "",
+        "information": "Soy la fundadora y directora de Antigua al Rescate. Organizaci\u00f3n que se cre\u00f3 en el 2018 como respuesta a la emergencia del Volc\u00e1n Fuego. Estuvimos a cargo de la recuperaci\u00f3n de restos de las v\u00edctimas de la erupci\u00f3n. Posteriormente, apoyamos con Jornadas Medicas los migrantes de las Caravanas Migrantes y tenemos +2 a\u00f1os de trabajar en recuperaci\u00f3n nutricional ambulante a ni\u00f1os con Desnutrici\u00f3n Aguda y Cr\u00f3nica en el Corredor Seco del Pa\u00eds. \n\nComo organizaci\u00f3n, tenemos a nuestro cargo 380 familias de 5 comunidades de Jocot\u00e1n en Chiquimula. Trabajamos con apoyo y apoyando a SESAN con alimentos para casos de desnutrici\u00f3n en cinco departamentos del pa\u00eds. Tenemos un acuerdo vigente de cooperaci\u00f3n con el Frente Parlamentario contra el Hambre, Porch de Salomon y varias empresas privadas que contribuyen a trav\u00e9s de donaciones de alimentos. Desde que trabajamos en estas comunidades, la mortalidad infantil y materna ha reducido hasta casi desaparecer. \n\nHemos recibido la Orden Monse\u00f1or Gerardi a los Derechos Humanos que entrega el Arzobispado de Guatemala, la Orden Jorge Mario G. Laguardia a los Derechos Humanos que entrega la Procuradur\u00eda de los Derechos Humanos y personalmente, fui nombrada Guatemalteca Ilustre en la categor\u00eda social por Seguros Universales.\n\n",
+        "image": "VeraSofiaLetona.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Ana Sof\u00eda Menchu Jim\u00e9nez",
+        "short": "",
+        "information": "Tengo 20 a\u00f1os estoy cursando mi ultimo a\u00f1o en la carrera de Comunicaci\u00f3n y dise\u00f1o en la Universidad Galileo y mi 4to a\u00f1o en Educaci\u00f3n con especializaci\u00f3n en m\u00fasica en la Universidad Del Valle de Guatemala. Llevo 5 a\u00f1os trabajando en dise\u00f1o de branding, dise\u00f1o social media y dise\u00f1o multimedia. Llevo estrategias de contenido y marketing digital para La Tacita de Plata y trabajo como freelance para empresas y emprendimientos. Me he desarrollado en programaci\u00f3n, dise\u00f1o web, community y content manager. Llevo un a\u00f1o emprendiendo en mis propios proyectos. Durante la cuarentena pude seguir form\u00e1ndome llevando cursos de Google, Google ads, community manager, content manager y dise\u00f1o de interior. He brindado talleres de organizaci\u00f3n y motivaci\u00f3n. Igualmente continu\u00f3 mi formaci\u00f3n en el \u00e1rea musical y art\u00edstica y participo en la compa\u00f1\u00eda Querido Arte.",
+        "image": "AnaSofiaMenchuJimenez.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Adriana Mar\u00eda de Le\u00f3n de Le\u00f3n",
+        "short": "",
+        "information": "Mi nombre es Adriana de Le\u00f3n, tengo 23 a\u00f1os y actualmente estoy trabajando en Pacto Global de las Naciones Unidas. Tengo a mi cargo el tema de igualdad de g\u00e9nero e inclusi\u00f3n laboral, as\u00ed como algunas tem\u00e1ticas de comunicaci\u00f3n y administraci\u00f3n.",
+        "image": "AdrianaMariadeLeondeLeon.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Claudia Leticia Villatoro Ayala",
+        "short": "",
+        "information": "Profesional Salvadore\u00f1a en Tecnolog\u00eda y Transformaci\u00f3n Digital, apasionada del trabajo en equipo y logro de resultados, de amplia formaci\u00f3n y experiencia pero sobre todo fiel creyente que las personas y la actitud somos la que hacemos la diferencia!\n\nMi m\u00e1s reciente posici\u00f3n, ha sido como Gerente Regional de Tecnolog\u00eda, que me ha permitido\nimpulsar el desarrollo de la tecnolog\u00eda como soporte para las metas del negocio. En ese camino he reconfirmado la importancia del liderazgo con visi\u00f3n y trabajo en equipo, claves para alcanzar los objetivos.\n\nA lo largo de mis 25 a\u00f1os de carrera he tenido la dicha de trabajar en asombrosos y retadores proyectos: construcci\u00f3n de indicadores para la medici\u00f3n de resultados de compa\u00f1ias (Inteligencia de Negocios),implementaci\u00f3n de ERP como SAP ECC y plataformas de movilidad (facturaci\u00f3n en punto de venta), sistemas ERP a nivel regional, migraciones a la nube de sistemas cr\u00edticos, dise\u00f1o y ejecuci\u00f3n de Disaster Recovery, trabajo colaborativo, mesa de ayuda regional de servicios, evaluaciones t\u00e9cnicas de proyectos y muchas otras experiencias muy enriquecedoras.",
+        "image": "ClaudiaLeticiaVillatoroAyala.jpg",
+        "nationality": "El Salvador"
+    },
+    {
+        "name": "Mar\u00eda Fernanda Montenegro",
+        "short": "",
+        "information": "Soy ingeniera en sistemas, cofundadora de GPD code dedica al desarrollo de software a la medida, adem\u00e1s laboro para la Facultad de Ingenier\u00eda en Sistemas de la Universidad Mariano G\u00e1lvez de Guatemala como asesora de tesis, soy mam\u00e1 y esposa...",
+        "image": "MariaFernandaMontenegro.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Andrea Magaly Mendoza",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Milza Merari P\u00e9rez Suruy",
+        "short": "",
+        "information": "Milza Merari P\u00e9rez\nLicenciada en Administraci\u00f3n de Hoteler\u00eda, Turismo y Gastronom\u00eda\nEstudios actuales : Master en marketing digital y comercio electronico\nDocente \nAsesora y Consultora.\n",
+        "image": "MilzaMerariPerezSuruy.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Alejandra Josue",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Karla Marisol P\u00e9rez Romero",
+        "short": "",
+        "information": "Ingeniera Industrial, Master en administraci\u00f3n de la calidad, catedr\u00e1tica universitaria y analista de proyectos de tecnolog\u00eda. Me apasiona la gesti\u00f3n del tiempo y dinero, pienso que es la clave para lograr cumplir objetivos.",
+        "image": "KarlaMarisolPerezRomero.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Erika Luna",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "D\u00e9bora Natareno",
+        "short": "",
+        "information": "Soy licenciada en informatica y administraci\u00f3n de telecomunicaciones de la universidad galileo, tengo postgrado en sistemas de informaci\u00f3n y comunicaci\u00f3n de la USAC. Trabajo para el Programa Mundial de Alimentos de Naciones unidas desde marzo 2020 y desde 2016 trabajo para la oficina Regional en Panam\u00e1 dabdo soporte a todos los paises de la regi\u00f3n de america y el caribe en asistencia digital a beneficiarios y tambien en respuesta a emergencias.",
+        "image": "DeboraNatareno.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Akemy Doku",
+        "short": "",
+        "information": "Soy psic\u00f3loga, especialista en Gerencia de RRHH. Con 15 a\u00f1os como consultora en gesti\u00f3n humana para diversas industrias en temas de selecci\u00f3n, capacitaci\u00f3n y desarrollo estrat\u00e9gico. Fui gerente de recursos humanos y de consultor\u00eda en empresas de tecnolog\u00eda, por lo que logr\u00e9 consolidarme en esta industria teniendo reconocimiento.",
+        "image": "AkemyDoku.png",
+        "nationality": "Colombia"
+    },
+    {
+        "name": "Jenifer Rossanna Rivera Ju\u00e1rez",
+        "short": "",
+        "information": "Mi nombre es Jenifer Rivera, tengo 26 a\u00f1os y actualmente soy l\u00edder de equipo de operaciones en Telus. \n\nEn el 2017 me gradu\u00e9 de administraci\u00f3n de hoteles y restaurantes, y actualmente estoy estudiando mi maestr\u00eda en Gesti\u00f3n y Desarrollo Estrat\u00e9gico del Talento Humano, con la visi\u00f3n de gestionar de mejor manera el talento que yo lider\u00f3 y en futuro poder aplicarlo en una plaza de gerencia. \n\nMe encanta ayudar y desarrollar a las personas, poder guiar a mi equipo a un buen desempe\u00f1o, compromiso y ambiente laboral.\n\nLlevo casi 4 a\u00f1os en Telus, de los cuales 3 han sido como l\u00edder. Antes de estar en Telus, estuve como productora de eventos y supervisora de contenido en una empresa de Marketing Digital, ambas empresas nacionales.\n\nCon la experiencia que he ganado en mis previas labores, en el colegio y en la universidad he podido desarrollarme estos a\u00f1os y poner en pr\u00e1ctica lo que he aprendido, he estado en conferencias, leido libros e internamente en Telus prepararme para desarrollar o evolucionar las competencias y habilidades necesarias para el rol.\n\nMe encantar\u00eda formar parte de esta conferencia y poder transmitirle esto a las mujeres para que sepan que se puede lograr y estar seguras del liderazgo que tienen.",
+        "image": "JeniferRossannaRiveraJuarez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Ashly Mabel Zu\u00f1iga Solares",
+        "short": "",
+        "information": "Soy m\u00e9dico y cirujano egresada de la Universidad de San Carlos de Guatemala. Tengo una especializaci\u00f3n en administraci\u00f3n y mantenimiento hospitalario. Me dedico a la atenci\u00f3n clinica de pacientes con diversas enfermedades. Soy una persona proactiva, responsable, empatica que le interesan mucho las nuevas tecnologias para transformar el \u00e1mbito que me rodea.",
+        "image": "AshlyMabelZunigaSolares.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Maria Sofia Castillo",
+        "short": "",
+        "information": "Como innovadora en sistemas y artista, trabaja por facilitar la conexi\u00f3n, el aprendizaje continuo y la creaci\u00f3n de tecnolog\u00eda apra el florecimiento humano.\n\nTiene experiencia en multinacionales, nacionales, universidades, ongs. Trabajado en innovaci\u00f3n en empresas como Procter&Gamble, Pantale\u00f3n, Spectrum, UFM, Calgary, etc..\n\nActual fundadora de core-code.io, aceleradora de talento tecnol\u00f3gico para LATAM.",
+        "image": "MariaSofiaCastillo.png",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Silvia Lucia Moya Morales",
+        "short": "",
+        "information": "Scrum Master certificada y Project Manager con +5 a\u00f1os de experiencia en agencias de publicidad. Actual estudiante de Comunicaci\u00f3n en la USAC. Desempe\u00f1o el cargo de Tech Project Manager en una agencia regional, teniendo a mi cargo el equipo de tecnolog\u00eda y todos los proyectos que entran a este departamento. Anteriormente tuve el cargo de L\u00edder de Operaciones \u00c1giles tambi\u00e9n en agencia de publicidad. Llegu\u00e9 a tecnolog\u00eda a trav\u00e9s de Scrum y durante estos a\u00f1os he aprendido much\u00edsimo de la mano de developers experimentados en distintas \u00e1reas.",
+        "image": "SilviaLuciaMoyaMorales.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Luisa Fernanda Toledo",
+        "short": "",
+        "information": "Soy abogada, escritora y mam\u00e1 de dos ni\u00f1os.",
+        "image": "LuisaFernandaToledo.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Marisa A Toriello",
+        "short": "",
+        "information": "Mi nombre es Maria Isabel Arias Toriello. Nunca me identifiqu\u00e9 con \u00e9l, as\u00ed que desde ni\u00f1a me auto titul\u00e9 Marisa Toriello. Quien soy es una compilaci\u00f3n de muchas capas. En momentos de mi vida he sido deportista, hija, amiga, pareja, querer, rebelde, estudiante, pero hay una sola cosa que ha prevalecido en mis diferentes etapas. Soy artista. Desde ni\u00f1a he buscado maneras alternas de expresarme o encontrarme en el mundo. Ya sea a trav\u00e9s de la m\u00fasica, las artes marciales, dibujando o con la fotograf\u00eda y ahora contenido audiovisual. \n\nDe ni\u00f1a viv\u00ed una infancia bastante solitaria. Quienes estuvieron all\u00ed para mi fueron las pel\u00edculas y es esa una de las razones principales por las que hoy estudio cine. \n\nDespu\u00e9s de graduarme del colegio, no sab\u00eda c\u00f3mo hacer para dedicarme al cine. Tuve la dicha de entrar en un internship en la productora de McDonalds. Poco despu\u00e9s surgi\u00f3 la oportunidad de ser gerente de producci\u00f3n de un largometraje y a partir de ese punto, pas\u00e9 un a\u00f1o dedic\u00e1ndome a la producci\u00f3n publicitaria y cinematogr\u00e1fica. Pero me parec\u00eda importante aprender m\u00e1s sobre el campo y no solo trabajando en \u00e9l. En el 2020 inici\u00e9 a estudiar cine en la Escuela de Cine Artes Visuales y Emprendimiento en la UFM. Actualmente curso mi tercer a\u00f1o y en mi tiempo en la escuela he dirigido dos cortometrajes, fui jurada para el Festival internacional de Cine en Guadalajara y una de las panelistas en el Open Doors del Festival Internacional de Cine de Locarno 2021. \n\nSoy una persona sumamente apasionada, que le encanta aprender y siempre buscar\u00e1 dar su 100% en lo que sea que est\u00e9 haciendo.",
+        "image": "MarisaAToriello.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Raymel Tarazona",
+        "short": "",
+        "information": "Soy humana con todo lo que eso implica. Psic\u00f3loga, poeta e ilustradora en b\u00fasqueda constante de su esencia y fiel creyente de que la exploraci\u00f3n nos puede llevar a Universos incre\u00edbles donde nos podemos conocer much\u00edsimo m\u00e1s.",
+        "image": "RaymelTarazona.jpg",
+        "nationality": "Argentina"
+    },
+    {
+        "name": "Jessica Manuela \u00c1lvarez Flores",
+        "short": "",
+        "information": "Empresaria & Dra.h.C de los Speakers Internacionales en 55 pa\u00edses, MA en Derecho Tributario y Financiero, M.Sc. En Gesti\u00f3n del Talento Humano, Licenciada en Contadur\u00eda P\u00fablica y Auditor\u00eda, Docente Universitaria, modalidad presencial y online. Experta en Dise\u00f1o de Experiencias E-learning. Locutora Profesional autorizada por la Direcci\u00f3n General de Radiodifusi\u00f3n y Televisi\u00f3n Nacional DGRTN, Asesora de Imagen y Maquillista Profesional con actualizaciones anuales. Gran Maestro Internacional, Master Speaker Internacional, Embajadora, Senadora, Master of Ceremony (Licencia Internacional Conductora de Eventos) Educational Speaker Trainer (Licencia Intenacional en Docencia). Actual Presidenta de la C\u00e1mara Internacional de Conferencistas CIC Guatemala.",
+        "image": "JessicaManuelaAlvarezFlores.jpeg",
+        "nationality": "Guatemala"
+    },
 
-	{
-		name: 'Conferencista Ejemplo',
-		short: 'Biografía corta',
-		information: 'Biografía extendida, solo se ve completa al hacer click a conferencista.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	}
 
-	/*
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	*/
 
-	/*
-	{
-		name: 'Andrea Lara',
-		short: 'Directora de la Maestría en Ingeniería Biomédica en UG.',
-		information: 'La Magister Andrea Lara es Ingeniera en electrónica graduada de Universidad Galileo, obtuvo una maestría en ingeniería biomédica de la Universidad de Lubeck, Alemania y actualmente es PhD Candidate de Ingeniería Biomédica en la Universidad Tecnológica de Graz, Austria. Actualmente, la magister Lara es directora del primer programa de maestría de Ingeniería Biomédica en el país y se encuentra trabajando en proyectos de investigación y colaboración con Universidades de Brasil y Europa. Sus áreas de interés y de investigación incluyen la electrónica médica, equipos de imágenes diagnósticas, procesamiento de imágenes e inteligencia artificial.',
-		image: 'AndreaLara.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Lesly Zerna',
-		short: 'Ingeniera en Telecomunicaciones con maestría en Ciencias de Computación. Google Developer Expert.',
-		information: 'Me gusta la tecnología y viajar. Estudié Ingeniería en Telecomunicaciones en Bolivia y mi maestría en Ciencias de Computación en Bélgica. He participado en varios Startup Weekend como mentora (los primeros como participante). Desde 2019, soy Google Developer Expert en Machine Learning, además de mentora para el Google Launchpad. En 2018, di 2 TEDx talk en Bolivia.',
-		image: 'LeslyZerna.jpg',
-		nationality: 'bolivia'
-	},
-	{
-		name: 'Lourdes López',
-		short: 'Premiada por The Diana Award, fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj',
-		information: 'Guatemalteca de 25 años de edad premiada por The Diana Award, UK , 2020 y la Organización Mundial Democrática como Mujer Líder y Emprendedora Social 2019, graduada a sus 22 años de la Universidad Rafael Landívar de la Licenciatura Investigación Criminal y Forense, y Licenciatura de Sociología de la Universidad San Carlos de Guatemala, con una trayectoria en investigación social, violencias, mujeres indigenas y juventudes. Fundadora de Dirección de Proyectos de Juventudes y Mujeres en la Fundación Oxlajuj N\'oj. Ha dado ponencias presenciales en congresos internacionales España, México,Costa Rica, Salvador y Perú. Se ha especializado en Investigación Social y Prevención de Violencia Sexual en Facultad Latinoamericana de Ciencias Sociales (FLACSO), Estudios de las Mujeres y Género, Gestión de proyectos con enfoque de género, Innovación Politica y Seguridad Nacional. Andrea Lourdes es activista en diferentes organizaciones como Organización Juvenil Con Vos, Fundacion Oxlajuj N\'oj, Observatorio contra el Acoso Callejero y Jovénes Iberoamericanos. Embajadora de la ODM en Guatemala y miembro OSWD. Actualmente cursa su máster en Estudios de Género y Mujeres- GEMMA ERASMUS MUNDUS-.',
-		image: 'LourdesLopez.jpg',
-		nationality: 'espana'
-	},
-	{
-		name: 'Sara Catalán',
-		short: 'Licenciada en Biología. Quince años de experiencia en gestión, manejo y administración de áreas protegidas.',
-		information: 'Soy licenciada en Biología egresada de la USAC, con un master en ciencias y uno en artes, estudio doctorado en la universidad de alicante y laboro como profesora de la escuela de biología de la usac, 15 años de experiencia en gestión, manejo y administración de áreas protegidas y 14 años de trabajar como experta en sistemas de información geográfica y modelos. Soy directora de una empresa que conformamos con un socio Consultor TopoSIG que se especializa en el uso de la tecnología para resolver problemas de ambiente, conservación, biodiversidad, mediciones.',
-		image: 'SaraCatalan.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Nora Pérez',
-		short: 'Artista multidisciplinaria y diseñadora independiente con un interés especial por la documentación y los procesos de investigación.',
-		information: 'Artista multidisciplinaria y diseñadora independiente con un interés especial por la documentación y los procesos de investigación. Cree firmemente en la importancia de la historia para explicar y entender un poco mejor el presente. Confía en el diseño, el arte y la comunicación como uno de los pilares estructurales de cualquier sociedad humana.\nComo artista ha participado en diferentes exposiciones nacionales e internacionales de las cuales destacan la Bienal de Arte Paiz curada por Cecilia Fajardo Hill en 2014 y La intimidad es política curada por Rosa Martínez en 2017. En 2014 obtuvo el tercer premio de la subasta de arte latinoamericano, Juannio, en su 50 edición. Utilizando como medios principales la performance, fotografía, grabado y el collage. Ha publicado textos críticos en diferentes medios, tanto nacionales como internacionales.\nFormó parte del equipo del medio digital Plaza Pública de 2012 a 2015, fue parte de Fundación Yaxs estando a cargo de la comunicación institucional, producción editorial basada en archivo, diseño y dirección de arte. Fue parte del equipo creador de la revista Ruda, proyecto en el que fungió como directora creativa para su creación. En 2015 fundó el estudio de diseño Nébula y en 2020 lanzó su proyecto personal, Ácida.\nActualmente trabaja en proyectos propios de diseño, arte e investigación.',
-		image: 'NoraPerez.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Victoria Chinchilla',
-		short: 'Ingeniera Mecánica Eléctrica. Interesada en la ciencia, ayuda social y protección de los animales.',
-		information: '"Mi nombre es Victoria Alejandra Chinchilla Reyes tengo 25 años y vivo con mucha pasión por lo que hago. Tengo intereses diversos, que van desde la ciencia, la ayuda social, la protección de animales y vivir de una manera sana conmigo misma y con los que me rodean.\nTengo deseos de aprender, de ser mejor, pero también de poder entregar mis conocimientos, experiencias y enriquecernos de una manera bidireccional.\nAcadémicamente desde temprana edad tuve la curiosidad de aprender sobre varias disciplinas y tuve la fortuna de poder emprender mi formación académica orientada a la ingeniería. Soy una estudiante de Ingeniería Mecánica Eléctrica en la Universidad de San Carlos de Guatemala. Acabo de finalizar mis estudios de licenciatura y estoy empezando a estudiar una Maestría en Gestión de Mercados Eléctricos Regulados.\nDesde ya les agradezco el espacio y poder ser parte de este evento."',
-		image: 'VictoriaChinchilla.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Andrea Cabrera',
-		short: 'Licenciada en Marketing con MBA. Fundadora de la comunidad de emprendimiento femenina Wonder Woman Guatemala.',
-		information: 'Licenciada en Marketing con un MBA en la Universidad Rafael Landívar.\nEspecializada en Customer Experience por parte de la Universidad EAFIT de Colombia.\nCuenta con un diplomado en Derechos Humanos de la Mujer por la Universidad Austral de Argentina.\nFacilitadora de programas de emprendimiento a nivel nacional.\nDocente universitaria del área de desarrollo de emprendedores e innovación.\nCertificada en metodologías de innovación.\nFundadora de la comunidad de emprendimiento femenina en Guatemala, Wonder Woman Guatemala, en la que han capacitado a más de 400 emprendedoras en el país.\nFundadora y content creator de la agencia boutique de contenidos, Cherry on top.',
-		image: 'AndreaCabrera.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Daniella Suger',
-		short: 'Ingeniera Química. Labora en Universidad Galileo como Vicedecana de la Facultad de Ingeniería Química y Estudios Especializados en Informática y Sostenibilidad.',
-		information: 'Guatemalteca graduada de Ingeniería Química de la Universidad del Valle de Guatemala, con una Maestría en Estrategias Público-Privadas de Desarrollo Sostenible de la Universidad Galileo, tiene experiencia en temas ambientales, en especial el cambio climático, y sostenibilidad. Actualmente labora en Universidad Galileo como Vicedecana de la Facultad de Ingeniería Química y Estudios Especializados en Informática y Sostenibilidad y docente.',
-		image: 'DaniellaSuger.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Nidia Giorgis',
-		short: 'Ingeniera en sistemas, Experta en eLearning, Doctora en Educación, Master en Docencia Superior.',
-		information: 'Ingeniera en sistemas, Experta en eLearning, Doctora en Educación, Master en Docencia Superior, entre otros.  Experiencia en el área de elearning y educativa por más de 30 años.  Me apasionan las ciencias y la tecnología y deseo que más mujeres puedan encontrar su realización profesional en esta área.',
-		image: 'NidiaGiorgis.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Bárbara Escobar',
-		short: 'Bióloga y feminista. Cofundadora parte del Comité Ejecutivo OWSD Guatemala. Involucrada en distintos espacios y actividades intentando cambiar un poco el mundo.',
-		information: 'De niña quería salvar a todos los animales del mundo, pensaba que sería veterinaria hasta que conocí la biología. Me gradué de bióloga en la Universidad de San Carlos de Guatemala y tengo una Maestría en Conservación y Manejo de Vida Silvestre. Actualmente trabajo para la organización internacional Panthera, la cual se dedica a la conservación de felinos silvestres. También tengo experiencia como docente, coordinadora en programas de monitoreo de biodiversidad e investigadora independiente. Cuento con 11 publicaciones científicas pero aprovecho que me gusta mucho escribir para también hacer divulgación científica en blogs, columnas y redes sociales. Con la esperanza de cambiar un poquito el mundo, me gusta involucrarme en iniciativas desde donde siento que puedo aportar así que actualmente también soy parte del Comité Ejecutivo del Capítulo Guatemala de la Organización para las Mujeres en Ciencia para el Mundo en Desarrollo (OWSD) y de la Junta Directiva del Colegio de Farmacéuticos y Químicos de Guatemala. Soy feminista y abogo por una sociedad más justa para todas las personas y los seres vivos con quienes compartimos este planeta. Me gusta la cerveza, el queso, leer y darle amor a los perritos.',
-		image: 'BarbaraEscobar.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Waleska Aldana',
-		short: 'Doctora en Administración Pública y Políticas Públicas, Doctora en Desarrollo Sostenible. Fundadora del programa STEAM USAC.',
-		information: 'Licenciada en Física Aplicada, Maestría en Elearning, Doctorado en Administración Pública y Políticas Públicas, Doctorado en Desarrollo Sostenible. 24 años de docencia universitaria, fundador del Programa STEAM USAC y del Laboratorio Internacional de Ciencia, Investigación e Innovación.  ',
-		image: 'WaleskaAldana.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Women Who Code',
-		short: '',
-		information: '',
-		image: 'wwc.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Evelyn Alejandra Donis González',
-		short: 'Ingeniera en Sistemas, enfocada en seguridad de informacion y seguridad informática.',
-		information: 'Ingeniera en Sistemas, cuento con más de 10 años de experiencia en seguridad de la información y seguridad informática, y en los últimos 4 años he adquirido conocimiento de Ciberseguridad a través de la realización de pruebas de seguridad en diferentes industrias de telecomunicaciones, financieras, manufactureras, retail, entre otras. También he apoyado en el asesoramiento e implementación de sistemas de gestión de seguridad de la información y Ciberseguridad y Gestión de Incidentes basados en las mejores prácticas como lo son Iso27001, ISO22301, ISO 27035, NIST y PCI-DSS, estas actividades me han permitido adquirir certificaciones internacionales ISO LA27001 e ISO LA22301.',
-		image: 'EvelynDonis.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Ana Magaly López',
-		short: 'Odontopediatra, Coach en Salud, Conferencista.',
-		information: 'Esposa, Madre de tres, Odontopediatra,  Coach en Salud.\nConferencista Nacional e Internacional.\nSiempre en búsqueda de aportar a mi país y comunidad.\nInquieta y estudiante eterna.',
-		image: 'MagalyLopez.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Claudia Rosales de Abarca',
-		short: 'Coordinadora de Maestria y Catedrática universitaria. Docente de corazon y tallerista. Cursando Doctorado en Psicología Educativa',
-		information: 'Soy docente de corazón y tallerista, me gusta enseñar a otras a empoderarse de sí mismas.  Trabajo como coordinadora de dos maestrías en la Universidad Rafael Landívar. Soy catedrática universitaria. Me gusta la jardinería, la música, hacer ejercicio en casa y meditar.\nMe gustan las horarias de terror y los libros de neurociencia.\nEstoy sacando un doctorado en Psicología educativa y será un gusto hablar de cómo funciona nuestro cerebro para liderar mejor a los equipos.',
-		image: 'ClaudiaRosales.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Red Interuniversitaria Seguras y Educadas',
-		short: 'Plataforma de cooperación interuniversitaria, iniciada en 2020. ',
-		information: 'Somos una plataforma de cooperación interuniversitaria, que busca articular y plantear propuestas para prevenir, sancionar y resarcir la violencia sexual dentro de las universidades del país. Nuestro trabajo, que inició en 2020, incluye investigación, educación y activismo feminista.',
-		image: 'RISE.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Jennifer Karina Garzona Morales',
-		short: 'Licenciada en Ciencias de la Comunicación. Analista de datos a nivel digital. Directora de Research e Insights en iLifebelt.',
-		information: 'Egresada de Ciencias de la Comunicación y ex-becaria del Departamento de Estado en el 2010. Cuento con más de 7 años de experiencia en el área de análisis de datos a nivel digital, he trabajado para marcas en el sector financiero y de telecomunicaciones, actualmente soy Directora de Research e Insights para la empresa iLifebelt.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Andrea Mazariegos',
-		short: 'Ingeniera de profesión y constructora de ecosistemas de emprendimiento por pasión.',
-		information: 'Ingeniera de profesión y constructora de ecosistemas de emprendimiento por pasión. Fascinada con la integración de mujeres en espacios de liderazgo y el impulso de empresas de alto crecimiento en el país.',
-		image: 'AndreaMazariegos.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Karen Acosta',
-		short: 'Más de 9 años de experiencia manejando la comunicación de empresas de Silicon Valley.',
-		information: 'Holds more than 14 years of experience in managing communications for brands in a broad set of industries including technology, construction, consumer goods, mining, manufacturing, and personal care.\nFor the past 9 years, Karen has specialized in managing the reputation of Silicon Valley companies whose target market in Latin America. She has also been responsible for the creation of a regional team for Out Of Box Consulting, consisting of members from countries such as Mexico, Colombia, Peru, Chile, and Argentina, in order to cover strategies and expansion plans of US and Latin America-based startups.\nKaren is passionate about entrepreneurship and technology.',
-		image: 'KarenAcosta.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Alma Peraza',
-		short: 'Licenciada en Comunicación y Diseño, involucrada el mundo digital de educación, farmaceutica y retail.',
-		information: 'Soy licenciada en comunicación y diseño, actualmente cursando maestría en marketing digital, tengo más de 5 años de experiencia en el mundo digital para diferentes industrias desde educación, farmacéutica y retail.',
-		image: 'AlmaPeraza.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Andrea Rosal',
-		short: 'Empresaria e innovadora en el mercado de la belleza. Fundadora de la academia de maquillaje Andrea Paola Makeup School. Creadora de The Beauty Truck.',
-		information: 'Mi nombre es Andrea Paola Rosal soy una mujer empresaria e innovadora en el mercado de la belleza, tengo 10 años de experiencia como maquillista profesional.  Tengo una licenciatura en medios de comunicación y estudios internacionales sobre maquillaje e imagen en España, Mexico, Los Angeles y Francia.\nSoy fundadora de la academia de maquillaje Andrea Paola Makeup School actualmente se dan clases de maquillaje y peinado graduando a más de 200 mujeres profesionales con los más altos estándares de productos, conocimientos, prácticas en el mundo de la belleza.  Además fui pionera en tener la primera academia en línea sobre maquillaje en Guatemala graduando a más de 500 Alumnos de Latinoamérica. Soy la creadora del primer salón de belleza sobre ruedas en Guatemala y Centroamérica The Beauty Truck esta idea nace con el objetivo de llevarle a todas las mujeres los servicios de maquillaje, peinado y uñas a la puerta de su casa asimismo para eventos especiales como bodas, quince años o cumpleaños y tener un experiencia única.\nEn el 2020 lance mi línea de cosméticos vegana y sin parabenos Andrea Paola Cosmetics.\nActualmente también me dedico a crear contenido en redes sociales sobre finanzas y emprendimiento. Tengo un segmento de Martes de chicas financieras  y jueves de emprendedores.\nAdemás en 2020 me abrí campo en el mundo de los spas con Verana Spa con servicios de relajación, reducción y cuidado  de la piel.',
-		image: 'AndreaRosal.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Andrea Xitumul',
-		short: 'Soy una profesional con más de 10 años de experiencia en sistemas de gestión de calidad y seguridad ocupacional.',
-		information: 'Soy una profesional con más de 10 años de experiencia en sistemas de gestión de calidad y seguridad ocupacional. Organizada, disciplinada y con capacidad de adaptarma a los diferentes planes de las empresas para las que he trabajado.\nDurante mi ejercicio profesional, he adquirido conocimientos de supervisión en trabajos de campo, mantenimientos en hidroeléctricas, construcción y montaje de subestaciones eléctricas y líneas de transmisión, análisis de trabajo seguro, sistemas de gestión ISO 9001, 18001, 45000, gestión de riesgos en proyectos, gestión por procesos, seguridad e higiene industrial, liderazgo, sistemas de gestión integrados, metodologías 5s y 9s, primeros auxilios, certificaciones en trabajos en alturas, seguridad y rescate en zonas agrestes, auditor interno de sitemas de gestión de calidad.',
-		image: 'AndreaXitumul.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Maria Isabel Grajeda Avila',
-		short: 'Licenciada en Administración de Empresas. Fundadora de Abuelitos Heladeros. Promotora del resguardo de salud y vida de comerciantes de la tercera edad.',
-		information: 'Guatemalteca Ilustre 2020.\nAdministradora de empresas con experiencia en finanzas.\nCreadora del proyecto Abuelitos Heladeros, que tiene como fin resguardar la salud y vida de un grupo de abuelitos vendedores de helados ambulantes cuyas ventas se vieron afectadas a raíz de la pandemia.\nSe logró proveerles de víveres, apoyo económico, una estufa, un ecofiltro, camas nuevas para llevar a sus casas y quedarse ahí sin tener que salir a trabajar.\nSe les brinda apoyo económico semanal, entrega de alimentos para ellos y sus familias, atención médica y tratamientos respectivos.\nAdicionalmente se mejoró la infraestructura del depósito donde ellos trabajan para que tengan un sitio cómodo y digno para descansar luego de sus largas jornadas.\nEn redes sociales se están vendiendo los helados con las comisiones de ellos para hacer autosostenible el proyecto. Además, de donaciones que se reciben de personas que se siguen sumando en un acto de amor al prójimo.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Claudia Andrea Maucaylli Campos',
-		short: 'Diseñadora por pasión. Interaction designer, Co-host y parte del equipo de Organización y Logística en Más Mujeres',
-		information: 'Me considero una diseñadora por pasión, una viajera de corazón y una aprendiz eterna.\nInteraction designer en UTP, co-host en UX Pills, UX designer freelancer, parte del equipo de Organización y Logística en Más Mujeres en UX Perú y facilitadora de talleres sobre diseño UX. Cuento con experiencia en los rubros de banca, educación, e-commerce y telecomunicaciones. Me encanta aprender y compartir sobre diversos temas en comunidad.',
-		image: 'ClaudiaAndreaMaucaylli.jpg',
-		nationality: 'peru'
-	},
-	{
-		name: 'Jeanny Chapeta',
-		short: 'Escritora guatemalteca. Ganadora del certamen "El Palabrerista". Dos novelas y dos libros de cuentos publicados.',
-		information: 'Escritora guatemalteca, nace en 1988. Ganadora del certamen "El Palabrerista" en 2016 por el cuento Claudia y los gatos, el cual fue traducido al inglés y publicado en el Rincón de traductores del Instituto Cervantes de la Universidad de Harvard . Ha recibido cuatro premios más a nivel universitario e interuniversitario. Hasta el momento ha publicado las novelas El año que Lucía dejó de soñar & ¿Volverás a soñar Lucía? y los libros de cuentos Historias incompletas & Casa de Silencios. También ha publicado en diversas revistas a nivel latinoamericano. Es profesora en Lengua y Literatura por la Universidad del Valle de Guatemala y actualmente trabaja en dos proyectos novelísticos que podrían estar disponibles a final del 2021.',
-		image: 'JeannyChapeta.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Cristhy Avilene Zaso Solis',
-		short: 'Odontologa y Emprendedora. Feliz madre y esposa',
-		information: 'Soy mamá, esposa, odontóloga y emprendedora, me encanta ayudar a otras mujeres a mejorar sus condiciones de vida y las de su familia.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Valeria del Pilar Gaitan Vallejo',
-		short: 'Licenciada en Diseño Industrial con Maestría en Diseño de Interacción. Enfocada al deseño digital para el servicio y soluciones en salud. Apasionada por explorar la intersección entre diseño, tecnología e impacto social.',
-		information: 'Valeria es una diseñadora de Guatemala que actualmente trabaja como diseñadora digital en EGGS Design en Noruega. Tiene una amplia experiencia trabajando en servicios y soluciones digitales dentro del sector de la salud, desde dar forma al futuro de los servicios para el sistema de bienestar público noruego hasta construir una aplicación para monitorear la ictericia en los recién nacidos. Además, también tiene experiencia en otros campos innovadores como; aplicaciones para cargar vehículos eléctricos, innovación social y planificación urbana participativa.\nLa pasión de Valeria es explorar la intersección entre diseño, tecnología e impacto social. Ella cree que los diseñadores deben enfocarse en resolver los problemas globales y que las metodologías de diseño inclusivas deben ser una parte integral de cada equipo de diseño. Por lo tanto, Valeria se esfuerza por crear productos y servicios que contribuyan a construir comunidades más equitativas.',
-		image: 'ValeriaGaitan.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Bessy Maria Chan Arévalo',
-		short: 'Ingeniera en Sistemas. Miembro del Equipo de Ciberseguridad del GRUPO BABEL.',
-		information: 'Mi nombre es Bessy Chan, soy  ingeniera en sistemas, poseo más de 10 años de experiencia en el área de TI; estudiante de Hacker Ético y peritaje en informática forense, actualmente me desempeño como Technical team Leader en Oracle Applications dentro de Walmart; a su vez formo parte del equipo de ciberseguridad de GRUPO BABEL.',
-		image: 'BessyChan.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Silvia Elizabeth Recinos Medina',
-		short: 'Licenciada en Diseño Gráfico, enfocada al ux/ui, miembro activo de Women Who Code Guatemala.',
-		information: 'Diseñadora gráfica enfocada al ux/ui, me graduó este año y formó parte de women who code Guatemala.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Marivi Briz',
-		short: 'Gerente de Desarrollo de Producto de Telefónica Digital en Global Consumer. Voluntaria de proyectos proporcionando una educación digital a niños de entornos vulnerables ',
-		information: '"María Virtudes Briz Ruiz, también conocida como ""Marivi"", es actualmente Gerente de Desarrollo de Producto de Telefónica Digital en Global Consumer, empresa de telecomunicaciones multinacional con presencia en 24 países y operación en 12. Desde que Marivi se unió a Telefónica, hace 9 años, ha estado trabajando en entornos desafiantes como Londres, São Paulo y Santiago de Chile, hasta llegar a las oficinas centrales en Madrid, España, en donde se encuentra basada.\nDurante esos años, ha estado cambiando áreas y roles laborales, pero el factor común es que ha podido comprender y traducir las necesidades de los clientes en soluciones digitales utilizando diferentes metodologías: Design Thinking, Design Sprint, Agile, Lean Startup.\nActualmente, sus principales responsabilidades incluyen la definición de roadmap global, liderar una estrategia de desarrollo de productos y la entrega de soluciones de Entretenimiento (video, juegos y música) disponibles en 8 países, +10 dispositivos, con más de 6 millones de usuarios e ingresos de + 1Bn €.\nSe le considera una ""intraemprendedora"", con mucha energía y una amplia experiencia en gestión, liderando grandes equipos multidisciplinarios (incluyendo Ingeniería, Calidad, Desarrollo de Software y Experiencia de Usuario).\nDesde sus inicios, ha destacado con la distinción Cum Laude de la Universidad del Valle de Guatemala en la carrera de Ciencias de la Computación en donde contaba con la beca parcial de dicha Universidad, tras varios años trabajando en Guatemala llegó a Telefónica de la mano de la beca Fundación Carolina otorgada por la Embajada de España para estudiar el Máster en Administración de Empresas con Especialidad en Dirección de Empresas Tecnológicas. Más adelante, recibió el Certificado Ejecutivo de Desarrollo de Estrategia tecnológica en Innovación por parte del prestigioso MIT Sloan School of Management.\nEs voluntaria de corazón, ha participado en varios proyectos relacionados a Profuturo cuyo objetivo es reducir la brecha educativa en el mundo proporcionando una educación digital de calidad a niños y niñas de entornos vulnerables de Latinoamérica, el Caribe, África y Asia. Estuvo donando sus vacaciones en 2012 en el proyecto de “Vacaciones Solidarias” en donde participó 3 semanas en Mar de Plata, Argentina. Es mentora de la división Junior de niñas STEAM en Madrid, España (Science, Technology, Engineering, Arts and Math).',
-		image: 'MariaVirtudesBriz.jpg',
-		nationality: 'espana'
-	},
-	{
-		name: 'Andrea Josefina Hernández Guerra',
-		short: 'Politóloga e Investigadora. Fundadora del Modelo de Naciones Unidas de Guatemala y Directora Departamental de la Red Mundial de Jóvenes Políticos Guatemala.',
-		information: 'Politóloga en formación, investigadora social y líder juvenil. Fundadora del Modelo de Naciones Unidas de Guatemala y Directora Departamental de la Red Mundial de Jóvenes Políticos Guatemala.',
-		image: 'AndreaHernandez.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Amanda Recinos',
-		short: 'Investigadora Científica, Directora de INNOVARIO Centro de Investigación para el desarrollo.',
-		information: '"Soy Madre, dedicada a la investigación científica, Directora de INNOVATION Centro de Investigación para el Desarrollo.\nTrabajo en los temas de\n1. Ambiente y Cambio climático\n2. Salud y Nutrición\n3. Tecnociencia y Sociedad\n4. Inclusión productiva\nCon 4 ejes transversales\n1. Educación\n2. Fortalecimiento integral\n3. Vinculación financiera\n4. Participación conjunta\nDesde 4 opticas diferentes\nMeta, Meso, Micro y Nacro dimensión\nLas ideas, leyes, desde el individuo hata la nación.',
-		image: 'AmandaRecinos.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Katherinne Herrera',
-		short: 'Apasionada por el espacio y la física. Participante en proyectos financiados por la NASA: "Simulated Micro-, Lunar and Martian gravity Microbial Research" y "Space Biofilms"',
-		information: 'Katherinne Herrera es estudiante de Bioquímica y Microbiología de la UVG. Descubrió su amor por el espacio como consecuencia de su amor a la física. Luego de esto, comenzó en la investigación de Microbiología espacial para un proyecto de curso en el 2017. A partir de ese año, organizó y participó en múltiples talleres de biología espacial y biotecnología. Realizó una pasantía en la agencia BioServe Space Technologies, donde formó parte de dos proyectos financiados por la NASA: "Simulated Micro-, Lunar and Martian gravity Microbial Research" y "Space Biofilms". Actualmente trabaja en su tesis, sobre Células planctónicas de Pseudomonas aeruginosa crecidas en la Estación Espacial Internacional.',
-		image: 'KatherinneHerrera.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Susana Roca Estrada',
-		short: 'Licenciada en Administración de Empresas. Emprendedora. Organizadora de El Primer Encuentro de Mujeres Ejecutivas y Empresas EEE2018, como otros proyectos y foros.',
-		information: '"Graduada de la Universidad Mariano Gálvez de Guatemala de Licenciada en Administración de Empresas, a lo largo de su vida personal y profesional ha desarrollado diferentes competencias que la convierten en una mujer con gran habilidad verbal y matemática, asertiva, muy sociable, con buena actitud y determinación, adaptable a diversas situaciones, con un alto grado de independencia y muy objetiva.\nSe caracteriza por ser muy emprendedora, con un estupendo servicio a personas y altamente creativa. Un alto servicio al cliente y habilidad para las Relaciones Públicas son parte de sus fortalezas profesionales.\nEn los últimos años se ha desarrollado como Consultora independiente lo que le ha permitido adquirir amplia experiencia en procesos administrativos; Mercadeo, Relaciones Públicas y Procesos de Gestión del Talento Humano, cómo selección y contratación, capacitación, evaluación.  Cuenta con más de 10 años de experiencia en procesos de Recursos Humanos.  Gerente de Comunicación para TENLOT de Guatemala y en los últimos 9 meses se desempeñó como Gerente de Comunicación y Marketing en Tiendas Mass Franquicias.\nHa sido editora en Jefe y Directora Ejecutiva de iMujer Magazine, la primera revista para mujeres en los negocios en la región desde donde se promueve el éxito que logran cada vez más mujeres en diferentes profesiones y empresas.  Actualmente\nHa impartido un sinnúmero de capacitaciones tanto en el Sector Público como Privado, así como asesorías y consultorías en diversas áreas, principalmente para empresarias de la pequeña y mediana empresa en el país y ha sido conferencista en varias oportunidades con diversidad temática.\nHa organizado y coordinado diversos eventos como Foros de Candidatos a Alcaldes y Diputados; El Primer Encuentro de Mujeres Ejecutivas y Empresas EEE2018; La primera y Segunda Cumbre de Compensaciones y Beneficios Laborales Guatemala, 2016 y 2017 respectivamente. Así como cursos, talleres y conferencias con variadas temáticas.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'María Andrée Paiz',
-		short: 'Diseñadora Gráfica especializada en sistemas de Diseño e Interfaz de Usuario. Miembro del colectivo de Ilustración Científica de Guatemala y la Consejera Regional para SCBWI.',
-		information: 'Soy diseñadora gráfica especializada en sistemas de diseño e Interfaz de Usuario. Además de trabajar para una empresa internacional de tecnología financiera, soy parte del colectivo de Ilustración Científica de Guatemala y la Consejera Regional para SCBWI (la Sociedad de Escritores e Ilustradores de Libros Infantiles). Mi experiencia teatral me ha servido para mejorar mi carrera.',
-		image: 'MariaAndreePaiz.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Isis García',
-		short: 'Licenciada en Ciencias de la Comunicación. Analista de datos a nivel digital. Directora de Research e Insights en iLifebelt.',
-		information: 'Egresada de Ciencias de la Comunicación y ex-becaria del Departamento de Estado en el 2010. Cuento con más de 7 años de experiencia en el área de análisis de datos a nivel digital, he trabajado para marcas en el sector financiero y de telecomunicaciones, actualmente soy Directora de Research e Insights para la empresa iLifebelt.',
-		image: 'default.png',
-		nationality: 'mexico'
-	},
-	{
-		name: 'Meiling Ericelda Esteban García',
-		short: 'Apasionada por la Tecnología e Investigación Criminal.',
-		information: 'Me apasiona la tecnología y la investigación criminal.',
-		image: 'MeilingEsteban.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Rosa Delfina Sunum Orellana',
-		short: 'Licenciada en Biología, especialista en cambio climatico. Diseñadora de proyectos con enfoque clímatico.',
-		information: 'Soy Bióloga egresada de la Universidad de San Carlos de Guatemala (USAC). Actualmente estudiante de la Maestría en Estadística Aplicada de la Facultad de Ingeniería de la USAC. Trabajo como Especialista de Cambio Climático en el Instituto Nacional de Bosques (INAB).\nCuento con 5 años de experiencia en el diseño de proyectos con enfoque climático y en entrenamiento de personal técnico en cambio climático. Mi interés es la aplicación de Machine Learning y AI para la búsqueda de soluciones e inversiones inteligentes a la problemática del cambio climático.',
-		image: 'RosaSunum.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Maria Fernanda Montenegro Monterroso',
-		short: 'Ingeniera en Sistemas, Desarrolladora de Sotfware. Cofundaodra de GPD code dedidaca a Ingenieria de Software.',
-		information: 'Ingeniera en sistemas de profesion con experiencia en el area de desarrollo de software. Cofundadora de GPD code, empresa dedicada a la ingenieria de software. Esposa y madre feliz.',
-		image: 'MariaMontenegro.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'María del Rosario Salazar Letona',
-		short: 'Licenciada en Diseño Gráfico, Creadora de contenido en redes sociales y activista por los derechos de las mujeres.',
-		information: '"María Salazar una diseñadora gráfica guatemalteca, feminista, que está comprometida con los derechos de las mujeres, los derechos sexuales y reproductivos, creadora de contenido desde sus redes sociales, con un contexto amigable y divertido.\nDiseñando desde su perspectiva y su realidad, creando así imágenes con mensajes fuertes.',
-		image: 'MariaSalazar.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Ana Cecilia Castillo',
-		short: 'Ingeniera en Sistemas, desarrolladora de Software. Co-Organizadora del GDG Guatemala y Embajadora de Women Techmakers.',
-		information: 'Ingeniera en Sistemas, desarrolladora de software ha desarrollado aplicaciones móviles por más de 8 años tanto para android como iOS actualmente trabaja desarrollando iOS en PayPal. Co-Organizadora del GDG Guatemala, Embajadora de Women Techmakers. Runner, Speaker y me encanta leer.',
-		image: 'AnaCastillo.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Gaby Futch',
-		short: 'Licenciada en Diseño Gráfico especialiada en Branding, UX+UI, y dirección de arte.',
-		information: 'Diseñadora gráfica especializada en branding, UX+UI, y dirección de arte. Para mí, el diseño debe ser centrado en el ser humano, ser experimental, funcionar de una manera bella y hacernos sentir algo.',
-		image: 'GabyFutch.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'María Regina Zaghi Lara',
-		short: 'Licenciada en Biología con Maestria en Neurociencias.  Colaboradora en proyectos del Laboratorio de Comportamiento de Organismos, utilizando herramientas de análisis de datos, Inteligencia Artificial y análisis cognitivo.',
-		information: 'Estudié Biología en Guatemala, hice mi tesis en conservación de ranas y calidad del agua. Luego saqué un profesorado y trabajé de maestra en Guatemala e India. Saqué una maestría en Neurociencias en 2019 y ahora trabajo en mi doctorado en el mismo instituto de neurociencias en España. En mi maestría y trabajo actual he trabajado en el laboratorio de Comportamiento de Organismos utilizando herramientas de análisis de datos, Inteligencia Artificial y análisis cognitivo en proyectos de laboratorio y en el mundo real.',
-		image: 'MariaZaghi.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Alejandra María Cabrera Robles',
-		short: 'Licenciada en Trabajo Social y Gestora para la atención de la Primera infancia. Miembro de OWSD y Red Internacional de Promotores de los Objetivos de Desarrollo.',
-		information: 'Alejandra Cabrera es Trabajadora social y Gestora para la Atención de la Primera Infancia de la Universidad de San Carlos de Guatemala, actualmente cursa una especialización en Innovación y Tecnología Educativa en la Universidad Europea del Atlántico. Se ha desempeñado en el campo de los derechos humanos de la niñez, mujeres, y estudiantes. Ha impartido ponencias nacionales e internacionales, participado en programas de radio; y, escrito columnas académicas y culturales. Es miembro de La Organización de la Mujer Científica para el Mundo en Desarrollo -OWSD- de la UNESCO y de la Red Internacional de Promotores de los Objetivos de Desarrollo Sostenible.',
-		image: 'AndreaCabrera.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Mayra Yucely Beb Caal',
-		short: 'Ingeniera mecatrónica y Baccalaureatus in Scientiis. Mater Internacional sistemas mecatrónicos y micromecatrónicos Miembro y voluntaria del IEEE, SPIE y OSA.',
-		information: 'Mayra Yucely Beb Caal (Cobán, A. V. 1994) es candidata a Doctorado en control y automatización por la Universidad Bourgogne Franche-Comté y colabora en el equipo de Micro y Nano-robótica en el centro de investigaciones FEMTO-ST (Francia). Es ingeniera mecatrónica y Baccalaureatus in Scientiis por la universidad del Valle de Guatemala; además tiene un Mater Internacional sistemas mecatrónicos y micromecatrónicos por Nile University (Egipto), Universidad de Oviedo (España) y Ecole Nationale Supérieure de Mécanique et des Microtechniques (Francia). Es miembro y voluntaria del IEEE (Institute of Electrical and Electronics Engineers), OWSD (Organization for Women in Science for the Developing World), SPIE (Society of Photo-Optical Instrumentation Engineers) y OSA (The Optical Society).',
-		image: 'default.png',
-		nationality: 'francia'
-	},
-	{
-		name: 'Gabriela Asturias',
-		short: 'Coordinadora del Programa de TV Infantil Enciendete y el Proyecto Conéctate Guate, impulsadora en la creación del Sistema ALMA para realizar consultas sobre COVID-19 y coordinar la respuesta del sistema de salud.',
-		information: 'A los 14 años empecé mi trayectoria como mujer científica bajo la mentoría de la Dra. Pamela Pennington de la Universidad del Valle de Guatemala, donde me enfoque en la enfermedad de Chagas. También tuve la oportunidad de trabajar con el neurocirujano, Dr. Enrique Azmitia, que me permitió explorar mi pasión por el cerebro. A los 18 años recibí una beca para poder estudiar Neurociencia en la Universidad de Duke. Ese año empecé a trabajar con el Dr. David Boyd del Instituto de Salud Global en una investigación sobre desnutrición crónica en Guatemala.\nJunto con el Dr. Boyd empezamos la Fundación Desarrolla Guatemala para la Educación y Salud en el 2015. En FUNDEGUA he tenido la oportunidad de entrenar a más de 15 mujeres profesionales para hacer investigación y trabajar en programas en pro del desarrollo del país. Desde el 2017 empecé el programa Enciéndete con la Dra. Nimmi Ramanujam que busca empoderar mujeres con ciencia, tecnología, ingeniería, arte y matemáticas, logrando llegar a 1,602 estudiantes guatemaltecas. En el 2020 coordiné la creación y lanzamiento del Programa de TV Infantil Enciéndete, en alianza con Sésamo, Jayro Bustamante, La Casa de la Producción, Gaby Moreno, Yahaira Tubac, y Fundación Guatemorfosis. Este programa salió al aire en el canal 3, 7, 11, y 13, y también se está diseminando a través del programa Aprendo en Casa del Ministerio de Educación. Es una producción 100% guatemalteca en el que buscamos integrar a niños de todo el país y de diferentes etnias, cuyo objetivo es crear un espacio conducido por niños y para niños que permita resolver dudas relacionadas a COVID-19.\nDentro de FUNDEGUA también lidere el proyecto Conéctate Guate, en colaboración con SESAN, que busca crear un mapa de datos abiertos sobre todas las organizaciones en Guatemala trabajando para reducir las tasas de desnutrición crónica. Esta iniciativa la seguimos impulsando cada año con SESAN. Desde el 2020 he liderado un grupo de médicos, antropólogos, e ingenieros en la creación del Sistema ALMA que busca apoyar a la población con sus consultas sobre COVID-19 y coordinar la respuesta del sistema de salud. Hemos tenido un enfoque de género en ALMA para empoderar a las mujeres para mejorar el acceso a servicios de salud. También he tenido la oportunidad de colaborar con diferentes científicos en diversas publicaciones sobre estudios hechos en Guatemala, enfocados en desnutrición crónica, empoderamiento de mujeres con ciencia, y salud mental.',
-		image: 'GabrielaAsturias.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Bridgette Elisa Porras Barrios',
-		short: 'Licenciada en Nutrición, certificada en inteligencia emocional en salud y nutrición. Apasionada por la calidad de vida y alimentación.',
-		information: 'Mi nombre es Bridgette Porras y tengo 25 años. Soy nutricionista egresada de la Universidad Rafael Landívar certificada en inteligencia emocional en salud y nutrición y con especialización en introducción a la Nutrigenómica. Actualmente me dedico a dar consultas en nutrición. Me apasiona ayudar a las personas a mejorar su alimentación y por ende su salud.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Lucia Rosales',
-		short: 'Mujer pansexual, mestiza, transformista y nutricionista antidietas.',
-		information: 'Mujer pansexual, mestiza, transformista y nutricionista antidietas. Aprendiendo la compasión conmigo misma aplicada en el activismo que realizo trabajando con nutrición desde otra perspectiva.',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Damaris Lucía Lucero Rosales',
-		short: 'Ingeniera en Sistemas y Ma. en Informatica, actualmente trabajando como Project Manager en Allied Global.',
-		information: 'Ingeniera en Sistemas y Ma. en Informatica, actualmente trabajando como Project Manager en Allied Global, me gusta trabajar en equipo y entender al equipo. Me considero una persona que se adapta al cambio y que de cada reto presentado gano experiencia.',
-		image: 'DamarisLucero.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'María Isabel Fernández',
-		short: 'Ingeniera Mecatrónica. Cuento con experiencia en el mantenimiento industrial y proyectos eléctricos y de automatización en plantas industriales. ',
-		information: 'Soy Ingeniería mecatrónica egresada de la Universidad del Valle de Guatemala. Cuento con experiencia en el mantenimiento industrial y proyectos eléctricos y de automatización en plantas industriales.\nActualmente trabajo como supervisora de mantenimiento industrial en Bayer.  Amante de la tecnología y fotografía.',
-		image: 'IsabelFernandez.png',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Karla Marisol Pérez Romero',
-		short: 'Magister en Administración de Calidad e Ingeniera Industrial. Analista de proyectos y creadora de contenido virtual.',
-		information: 'Soy guatemalteca, ingeniera industrial y magister en administración de la calidad. Soy analista de proyectos y creadora de contenido digital para Instagram y YouTube. Me encanta poder aportar conocimiento, herramientas y asesoría para que cualquiera pueda cumplir sus objetivos.',
-		image: 'KarlaPerez.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Dayana Nina',
-		short: 'Ingeniera de Sistemas con MBA, FreeLancer y Docente Universitario de Pregrado. Activista por la inclusión de Mujeres en las áreas STEM.',
-		information: 'Ingeniera de Sistemas con MBA, FreeLancer y Docente Universitario de Pregrado, Speaker Nacional e Internacional en temas de Tecnología, Activista por la inclusión de Mujeres en las áreas Stem. Reconocida como una de las mujeres con influencia en tecnología por la AGETIC, MujeresTech a nivel Bolivia el 2019 y también como una TEN OUTSTANDING YOUNG PEOPLE el 2019 como una de los diez jóvenes más influyentes en la Ciudad de La Paz por la Junior Chamber Internacional(JCI). Womentech Ambassador 2020.',
-		image: 'DayanaNina.jpg',
-		nationality: 'bolivia'
-	},
-	{
-		name: 'Hilda Isabel Aguilar Figueroa',
-		short: 'Activista en proyectos para el desarrollo de la niñez. Educadora de Corazon. Madre y esposa entusiasta.',
-		information: 'Soy educadora de corazón. Soy madre, esposa, hija y hermana. Me apasiona la educación y me dedico a ello. He sido muy afortunada porque he trabajado siempre en lo que me gusta, por lo que no le llamo trabajo, sino pasión. Me encanta desarrollar proyectos en favor  de la niñez.',
-		image: 'HildaAguilar.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Angela Samantha Tepec González',
-		short: 'Licenciada en la enseñanza de la Matemática y Física con distinción Cum Laude. Incursora en programación y administración de aplicaciones para Android.',
-		information: 'Desde 2015 soy Licenciada en la enseñanza de la Matemática y Física con distinción Cum Laude. Poseo experiencia como docente del área científica de nivel medio, tanto en básico como en diversificado y también en la formación de docentes en servicio. Además, me he desempeñado en el área de coordinación académica teniendo a mi cargo proyectos y gestión de personal. En los últimos años incursioné en el área de programación y administración de aplicaciones móviles para Android.',
-		image: 'SamanthaTepec.jpg',
-		nationality: 'guatemala'
-	},
-	{
-		name: 'Marian Villa',
-		short: 'Magister en Mercadeo. Asesora en UI|UX en Google Launchpad. Fundadora de PionerasDev y Directora y Co-Fundadora de EVERSOCIAL.',
-		information: 'Marian Villa es docente, diseñadora, comunicadora, desarrolladora y Magister en Mercadeo. Asesora en UI|UX en Google Launchpad y es miembro calificador de SXSW.\nCEO y co-fundadora de EVERSOCIAL, agencia digital.\nDirectora y co-fundadora de @pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia y ahora de la Spin-off WOMINT.',
-		image: 'MarianVilla.png',
-		nationality: 'colombia'
-	},
-	{
-		name: 'Dulce García',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	}
-	*/
-
-	/*
-	{
-		name: '',
-		short: '',
-		information: '',
-		image: 'default.png',
-		nationality: 'guatemala'
-	},
-	*/
+    {
+        "name": "Isis Anabelle Oseida L\u00f3pez",
+        "short": "",
+        "information": "Estudiante de Ciencias Jur\u00eddicas y Sociales de la Universidad de San Carlos de Guatemala con cierre de p\u00e9nsum y examen tecnico profesional aprobado en su fase privada\nNotaria\nCuento con un curso a distancia en oratoria y presentaciones por la Universidad Aut\u00f3noma de Mexico\nFundadora de la iniciativa de la promoci\u00f3n de la lectura infantl Te cuentoun cuento Guatemala\nHe participado en diversos eventos como el Women Techmakers Guatemala de 2019, el Desafio Nutreme, Ideaton UNICEF, la semana de la innovacion por UNICEF y PNUD, StarupGrind Guatemala, 12 d\u00edas para la juventud",
+        "image": "IsisAnabelleOseidaLopez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Andrea Lourdes L\u00f3pez V\u00e9liz",
+        "short": "",
+        "information": "Guatemalteca premiada por The Diana Award, UK , 2020 y la Organizaci\u00f3n Mundial Democr\u00e1tica como Mujer L\u00edder y Emprendedora Social 2019. Ha desarrollado consultor\u00edas en OXFAM y otras organizaciones.\n\nEgresada de la Universidad Rafael Land\u00edvar de la Licenciatura Investigaci\u00f3n Criminal y Forense, y Licenciatura de Sociolog\u00eda de la Universidad San Carlos de Guatemala, con una trayectoria en investigaci\u00f3n social, violencias, mujeres indigenas y juventudes. \n\nFundadora de la Direcci\u00f3n de Proyectos de Juventudes y Mujeres en la Fundaci\u00f3n Oxlajuj N'oj. \n\nHa dado ponencias presenciales en congresos internacionales Espa\u00f1a, Alemania, Mexico,Costa Rica, Salvador y Peru. \n\nSe ha especializado en Investigaci\u00f3n Social y Prevenci\u00f3n de Violencia Sexual en Facultad Latinoamericana de Ciencias Sociales (FLACSO), Estudios de las Mujeres y G\u00e9nero, Gesti\u00f3n de Proyectos con Enfoque de g\u00e9nero, Prevenci\u00f3n Violencia de G\u00e9nero , Innovaci\u00f3n Politica y Seguridad Nacional. \n\nAndrea Lourdes es activista en diferentes organizaciones como Fundacion Oxlajuj N'oj, Observatorio contra el Acoso Callejero y Jov\u00e9nes Iberoamericanos. Miembro OSWD- La Organizaci\u00f3n de Mujeres en Ciencia para el Mundo en Desarrollo- y Asociaci\u00f3n para los Derechos de las Mujeres y el Desarrollo - AWID-. Actualmente cursa segundo a\u00f1o de m\u00e1ster en Estudios de G\u00e9nero y Mujeres- GEMMA ERASMUS MUNDUS- en Universidad de Bolonia Italia y Universidad de Granda Espa\u00f1a. Tiene publicaciones por la Universidad de Dresden Alemania, Universidad Salvador y otras revistas.",
+        "image": "AndreaLourdesLopezVeliz.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Emma Cristina Acosta Vallecillo",
+        "short": "",
+        "information": "Estoy felizmente casada, tengo un hijo de 5 a\u00f1os. Soy Hondure\u00f1a de nacimiento, vivo en Guatemala hace 7 a\u00f1os. \n\nTengo una Licenciatura en Mercadotecnia con orientaci\u00f3n a promoci\u00f3n y publicidad. Una certificaci\u00f3n internacional en Google y Facebook ads. \n\nActualmente me estoy formando como coach, conferencista y speaker internacional de la mano de John C. Maxwell.\n\nSoy fundadora de la comunidad Mentor Me que tiene como objetivo ayudar a mujeres emprendedoras a crecer, compartir y adquirir habilidades que les permitan crecer de forma integral.",
+        "image": "EmmaCristinaAcostaVallecillo.jpeg",
+        "nationality": "Honduras"
+    },
+    {
+        "name": "Marian Villa",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Paola Alejandra Vanessa Baldiz\u00f3n Marroqu\u00edn",
+        "short": "",
+        "information": "Soy comunicadora, periodista y relacionista p\u00fablica, cuento con experiencia elaborando estrategias de comunicaci\u00f3n; as\u00ed como en relaciones p\u00fablicas, comunicaci\u00f3n interna y externa para empresas y/o Instituciones p\u00fablicas, proyectos de RSE, Recursos Humanos, Capacitaci\u00f3n y Desarrollo de personal.\n\nHe trabajado como Asesora de Imagen P\u00fablica - Pol\u00edtica - Manejo y Relacionamiento con Medios de Comunicaci\u00f3n. \n\nEstoy por graduarme de la Maestr\u00eda de Imagen P\u00fablica y Planificaci\u00f3n Estrat\u00e9gica de Medios de Comunicaci\u00f3n de la Universidad Galileo y actualmente estoy estudiando la licenciatura en Ciencias Jur\u00eddicas y Sociales.\n\nConoce m\u00e1s de m\u00ed en mi web: https://espaciocreativopaolabm.wordpress.com/",
+        "image": "PaolaAlejandraVanessaBaldizonMarroquin.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Karla Molina",
+        "short": "",
+        "information": "Soy comunic\u00f3loga, con 11 a\u00f1os de experiencia en el Comunicaci\u00f3n Estrat\u00e9gica Organizacional y de marca. He trabajado en agencias publicitarias e instituciones privadas.",
+        "image": "KarlaMolina.jpg",
+        "nationality": "El Salvador"
+    },
+    {
+        "name": "Jessica Guadalupe Sian Mayorga",
+        "short": "",
+        "information": "Soy Lupita Sian, mujer empresaria e inversionista, Licenciada en Ciencias de la Comunicaci\u00f3n, conferencista y coach de vida, apasionada por el crecimiento personal.\n\nSue\u00f1o con trascender, impactando positivamente en la vida de millones de personas en todo el mundo, brindando, a trav\u00e9s mi Don de la Palabra, herramientas y oportunidades de desarrollo, liderazgo, finanzas y motivaci\u00f3n para mejorar su calidad de vida",
+        "image": "JessicaGuadalupeSianMayorga.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Dinorah Tovar",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Catherine Ramirez",
+        "short": "",
+        "information": "Mam\u00e1, comunicadora Social, escritora, l\u00edder social, coach de vida, diplomada en Periodismo, Integraci\u00f3n y opini\u00f3n p\u00fablica, fundadora del Parlamento Internacional de Emprendedoras, premio Latinoamericano en , premio \"Juana Velasco de Gallo\" mujer lider social (otorgado por Vicepresidencia de la Rep\u00fablica de Colombia).",
+        "image": "CatherineRamirez.jpg",
+        "nationality": "Colombia"
+    },
+    {
+        "name": "Ceci Castillo",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Ada Luc\u00eda",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Ericka Judith Sig\u00fcenza Mu\u00f1oz",
+        "short": "",
+        "information": "Que tal, soy Ericka Mu\u00f1oz, tengo 30 a\u00f1os, y vivo en Quetzaltenango. Soy Mercad\u00f3lga con \u00e9nfasis en comercio internacional graduada de la Universidad Rafael Land\u00edvar, actualmente estoy estudiando un Master Business Administration y una Especializaci\u00f3n en Direcci\u00f3n y Gesti\u00f3n de Proyectos en la Universidad de la Rioja Mexico. -- Los puestos laborales que desempe\u00f1o: Actualmente, Directora de Marketing en Make Agencia Publicitaria, Content Marketing Manager y Consultora Empresarial en Dooply Agencia de Desarrollo de Software en Quetzaltenango. Anteriormente: Coordinadora de Dep de Marketing en New Business Quetzaltenango, Community Manager en Swing Set Agencia.",
+        "image": "ErickaJudithSiguenzaMunoz.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Maria Andree Paiz Cerezo",
+        "short": "",
+        "information": "Senior UI Designer para PayPal. Artista e ilustradora, para ni\u00f1os e ilustraci\u00f3n cient\u00edfica. Directora a cargo del cap\u00edtulo de SCBWI Guatemala. Poliling\u00fce, actriz, multi facetica.",
+        "image": "MariaAndreePaizCerezo.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Katherine Chauca",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Devora Meza",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Sammy Arburola",
+        "short": "",
+        "information": "Me dedico a la resoluci\u00f3n de problemas con tecnolog\u00eda, soy mam\u00e1 de un mini-schnauzer y cocinera por hobby. Ingeniera en Computaci\u00f3n, con ADN de n\u00f3mada y admiradora del poder de la educaci\u00f3n.",
+        "image": "SammyArburola.jpg",
+        "nationality": "Costa Rica"
+    },
+    {
+        "name": "Mirina Bony Esther Gonzales Rodriguez",
+        "short": "",
+        "information": "Mirina Gonzales es bachiller de Ingeniera de Sistemas por la Universidad Cat\u00f3lica de Santa Mar\u00eda, actualmente trabaja como ingeniera de datos en Global66. Participa activamente de comunidades de tecnolog\u00eda y disfruta aprender cosas nuevas sobre Cloud y Big Data. Adem\u00e1s es organizadora de GDG Arequipa y Women Techmakers.",
+        "image": "MirinaBonyEstherGonzalesRodriguez.jpg",
+        "nationality": "Peru"
+    },
+    {
+        "name": "Montserrat Guinea",
+        "short": "",
+        "information": "Graduada de la Universidad Galileo en Licenciatura en Comunicaci\u00f3n y Dise\u00f1o, con m\u00e1s de 8 a\u00f1os de experiencia en digital, actualmente soy la responsable de la divisi\u00f3n de innovaci\u00f3n, comunicaci\u00f3n y marketing digital de Grupo Menarini",
+        "image": "MontserratGuinea.jpeg",
+        "nationality": "Mexico"
+    },
+    {
+        "name": "Nancy Salazar",
+        "short": "",
+        "information": "https://www.nancynsalazar.tech/mi-bio",
+        "image": "NancySalazar.jpg",
+        "nationality": "Mexico"
+    },
+    {
+        "name": "Andrea Paniagua",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Sofia Celeste G\u00f3mez Mel\u00e9ndez",
+        "short": "",
+        "information": "Mi nombre es Sofia Celeste G\u00f3mez Mel\u00e9ndez, tengo 21 a\u00f1os. A los 16 a\u00f1os ingres\u00e9 a la universidad y desde esa edad trabajo, he sido maestra, community manager, encargada de mercadeo, estoy iniciando mi propia agencia de mercadeo digital y fund\u00e9 una tienda de ropa preloved. Soy egresada de Publicidad Profesional USAC y en proceso de tesis de la licenciatura en Ciencias de la Comunicaci\u00f3n. \nHe formado parte de voluntariados con ni\u00f1os y j\u00f3venes tanto en temas de Orientaci\u00f3n vocacional como crecimiento personal y formaci\u00f3n general, actualmente soy la encargada de telemercadeo de Quinfica.",
+        "image": "SofiaCelesteGomezMelendez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Adriana Fernanda Moya",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": ""
+    },
+    {
+        "name": "Mari\u00e1n Marcelle Berganza Jongezoon",
+        "short": "",
+        "information": "Soy mercadologa de profesi\u00f3n, graduada en la URL, tengo 32 a\u00f1os y una maestr\u00eda en Direcci\u00f3n de Marketing de Murcia Espa\u00f1a, por el ENAE Business School, estudie en la Universidad de Palermo, Argentina una cl\u00ednica de SEO y SEM. \nLlevo 14 a\u00f1os trabajando en Marketing Digital, he trabajado con marcas como: BAYER Centroam\u00e9rica, Fritolay Centroam\u00e9rica, BDF, Claro Centroam\u00e9rica, Pollo Campero, Taco Bell, Adidas, reebok, Industrias Licoreras de Guatemala, entre otras. \nActualmente socio fundadora de MOSTRO (Agencia de publicidad), fundadora de CBA (Academia de Marketing Digital) y 2 empresas adicionales de producci\u00f3n audiovisual y comercializaci\u00f3n de medios. \nEmprendedora al 100%, me gusta trabajar en equipo, y me considero una persona muy humana. \nMam\u00e1 de Natalia de 3 a\u00f1os, casada.",
+        "image": "MarianMarcelleBerganzaJongezoon.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Heymmy Sucely Saravia Ramirez",
+        "short": "",
+        "information": "Soy una mujer de 33 a\u00f1os, casada y tengo un hijo de 5 a\u00f1os. Tengo Titulaci\u00f3n a nivel de Maestria, estudiando actualmente otra maestria.",
+        "image": "HeymmySucelySaraviaRamirez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Jenniffer Aldana",
+        "short": "",
+        "information": "M\u00e1s de 4 a\u00f1os de experiencia en la rama, desarrollandome principalmente en el \u00e1rea de Recursos Humanos, apoyando las \u00e1reas de Desarrollo Organizacional Bienestar, Capacitaci\u00f3n, Comunicaci\u00f3n Interna, Reclutamiento y Selecci\u00f3n y Compensaciones y Beneficios.\u00a0Adem\u00e1s de apoyar a emprendemientos internacionales con el Marketing empresarial.",
+        "image": "JennifferAldana.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "F\u00e1tima Alejandra Gir\u00f3n Cort\u00e9z",
+        "short": "",
+        "information": "Soy F\u00e1tima Gir\u00f3n, tengo 23 a\u00f1os y soy ingeniera industrial con una maestr\u00eda en gesti\u00f3n y desarrollo del talento humano, me caracterizo por ser una persona perseverante y que lucha por sus sue\u00f1os, actualmente trabajo en Krones como asistente de RRHH, y estoy muy entusiasmada de poder contar mi historia, de los retos que tuve y he tenido al ser mujere en este \u00e1mbito.",
+        "image": "FatimaAlejandraGironCortez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Angelica Qui\u00f1onez",
+        "short": "",
+        "information": "Soy escritora, comediante de stand-up y especialista en marketing digital. Mis especialidades son las escuchas digitales, estrategias de comunicaci\u00f3n y asesor\u00edas de reputaci\u00f3n digital.",
+        "image": "AngelicaQuinonez.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Mildred Anabella Gonz\u00e1lez Lima",
+        "short": "",
+        "information": "Soy Ana Mildred Gonz\u00e1lez, tengo 24 a\u00f1os, me considera una persona trabajadora, fuerte, valiente y poderosa, pero tambi\u00e9n soy vulnerable, aprendo todos los d\u00edas y me esfuerzo por ser una mejor versi\u00f3n de m\u00ed para mi misma y para el mundo que me rodea; y en este camino de aprendizaje estoy impuls\u00e1ndome a salir de mi zona de confort y es por eso que decid\u00ed aplicar a esta convocatoria.\n\nSoy estudiante de Universidad Galileo, actualmente estudio el primer a\u00f1o de la Maestr\u00eda en Consultor\u00eda de Imagen P\u00fablica y Monitoreo de los Medios de Comunicaci\u00f3n.\n\nTrabajo en la rama de la tecnolog\u00eda en la empresa Estratek, pero al mismo tiempo estoy construyendo una carrera como escritora, actualmente estoy estudiando algunos cursos de escritura y tengo una p\u00e1gina llamada V\u00e9rsame, que es el espacio en donde comparto mi arte y mis palabras.\n\nEscribo desde hace muchos a\u00f1os y para m\u00ed escribir siempre ha sido un lugar seguro, un momento conmigo misma y un espacio para ser sincera, el arte y la escritura me han permitido conectar con muchas personas, pero sobre todo conmigo misma y por eso, fue el tema que decid\u00ed elegir para compartir.",
+        "image": "MildredAnabellaGonzalezLima.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Meiling Esteban Garc\u00eda",
+        "short": "",
+        "information": "Amante de la tecnolog\u00eda y la investigaci\u00f3n criminal, fundadora de ASITI (Asociaci\u00f3n de Innovaci\u00f3n Tecnol\u00f3gica e Informatica), ANPROFOR (Asociaci\u00f3n Nacional de Profesionales Forenses), Radio AKbal, miembro de varias comunidades de tecnolog\u00eda.",
+        "image": "MeilingEstebanGarcia.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Alejandra Mar\u00eda Cabrera Robles",
+        "short": "",
+        "information": "Es una mujer joven entusiasta y creativa, creyente en la solidaridad como principio fundamental para producir cambios en la sociedad y coexistir en un mundo con miradas distintas. Es amiga de las letras. Observadora de aves urbanas y promotora de la Ciencia Ciudadana.\n\nEs Trabajadora Social y Gestora para la Atenci\u00f3n de la Primera Infancia por la Universidad de San Carlos de Guatemala; y, Especialista en Innovaci\u00f3n y Tecnolog\u00eda Educativa por la Universidad Europea del Atl\u00e1ntico. Actualmente cursa una maestr\u00eda en Formulaci\u00f3n, gesti\u00f3n y direcci\u00f3n de proyectos, becada en la Universidad Internacional Iberoamericana de Mexico.\n\nSe ha desempe\u00f1ado en el campo de los derechos humanos de la ni\u00f1ez, mujeres, estudiantes y personas en movilidad, tambi\u00e9n impulsa e incide en la organizaci\u00f3n comunitaria y la pol\u00edtica en el nivel local. Ha facilitado ponencias y talleres nacionales e internacionales; participado en programas de radio; y, escrito art\u00edculos acad\u00e9micos y culturales, desenvolvi\u00e9ndose como investigadora de las ciencias sociales. Es docente universitaria en la Universidad Rafael Land\u00edvar (URL) y, es consultora y sistematizadora de experiencias del Instituto de Investigaci\u00f3n y Proyecci\u00f3n sobre Ambiente Natural y Sociedad (IARNA) de la URL.\n\nEs Coordinadora de Equipo de La Organizaci\u00f3n de la Mujer Cient\u00edfica para el Mundo en Desarrollo de la UNESCO (cap\u00edtulo Guatemala) y Coordinadora de pa\u00eds de la Red Iberoamericana de Trabajo con las Familias.\n",
+        "image": "AlejandraMariaCabreraRobles.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Jocelyn Jeannette Guerra Carias",
+        "short": "",
+        "information": "Soy Licenciada en Ciencias de la Comunicaci\u00f3n de la Universidad Rafael Landivar, periodista digital en CTV en Guate.",
+        "image": "JocelynJeannetteGuerraCarias.jpeg",
+        "nationality": "GUATEMALA"
+    },
+    {
+        "name": "Bayri Carolina Gonz\u00e1lez Morales",
+        "short": "",
+        "information": "Soy una mujer de 39 a\u00f1os, graduada de ingeniera en sistemas y trabajo como WebDeveloper. Me gusta el dise\u00f1o y tambi\u00e9n la programaci\u00f3n pero me encanta poder ayudar a otros. Tengo hobbies como pintar en acuarela y acr\u00edlico, tomar fotograf\u00edas, y lo que involucre molestar a mis sobrinos. Viv\u00ed mucho tiempo con el miedo a cualquier error y equivocaci\u00f3n. Con la carrera de ingeniera en sistemas fui aprendiendo que equivocarse es parte de la vida, que los errores pasan y que si aprendemos de ellos nos volvemos m\u00e1s fuertes. Hoy he logrado ganarle terreno al s\u00edndrome del impostor pero a\u00fan no lo he eliminado.",
+        "image": "BayriCarolinaGonzalezMorales.jpeg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Andrea Feliza Misti Franco",
+        "short": "",
+        "information": "Soy guatemalteca, nacida en San Juan Sacatep\u00e9quez. Apasionada por el arte y las flores. Titulada como Bachiller en CCLL con orientaci\u00f3n en dise\u00f1o gr\u00e1fico por el Colegio Monte Carmelo y certificada en Marketing Digital por Next U. Aprendiz incansable de todo el mundo del arte, dise\u00f1o e interacci\u00f3n. Soy mam\u00e1, esposa, profesional independiente, cuidadora de plantas y cuenta cuentos certificada por mi hija. \nActualmente trabajo en una agencia de publicidad como asistente y analista de medios digitales. Y tambi\u00e9n en mi marca personal M\u00edstica Misti, en la que ofrezco servicios de: retratista, Ilustradora, dise\u00f1adora gr\u00e1fica y asesora de Marketing Digital.",
+        "image": "AndreaFelizaMistiFranco.jpg",
+        "nationality": "Guatemala"
+    },
+    {
+        "name": "Mirna Andrea Casta\u00f1eda Melgar",
+        "short": "",
+        "information": "Soy arquitecta, tengo 4 a\u00f1os de experiencia en la arquitectura y dise\u00f1o, so\u00f1\u00e9 con esta carrera desde que ten\u00eda 12 a\u00f1os y desde entonces ha sido un camino lleno de altos y bajos pero sea bueno o malo, todo es un aprendizaje. El hecho de tener la oportunidad de ver mis dise\u00f1os en proceso de construcci\u00f3n es un sue\u00f1o hecho realidad. Actualmente a nivel residencial se est\u00e1n construyendo 4 proyectos (casas) y Gracias a Dios ha sido algo que me llena de alegr\u00eda y saber que s\u00ed se puede.",
+        "image": "MirnaAndreaCastanedaMelgar.jpg",
+        "nationality": "Guatemala"
+    }
 ];
