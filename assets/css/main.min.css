@@ -1523,7 +1523,7 @@ body {
     transform: translateX(-85px);
     transition: 0.3s ease;
     color: #1a1a1a;
-    background: #fff8f2;
+    background: #fefaf6;
     border-style: solid;
     border-width: 1px;
     border-color: #1a1a1a;
@@ -1690,7 +1690,7 @@ body {
   z-index: 1;
   transition: 0.4s ease;
   /* color de fondo */
-  background-color: #fff8f2; }
+  background-color: #fefaf6; }
   .title-container .inner-container {
     position: relative;
     display: flex;
