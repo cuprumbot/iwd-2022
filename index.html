@@ -44,7 +44,7 @@
         (function($) {
             if(!window.location.hash) {
                 // Redirect
-                //window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
+                window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
             }
         })(jQuery);
     </script>
@@ -62,7 +62,7 @@
                 <span class="title-menu">
                     <a id="staff-access" class="btn-menu c3">Conferencistas</a>
                     <a id="agenda-access" class="btn-menu c3">Agenda</a>
-                    <a id="register-access" class="btn-menu c3">Registrate</a>
+                    <!-- <a id="register-access" class="btn-menu c3">Registrate</a> -->
                     <a id="home-access" class="btn-menu c1">Más información</a>
                     <a id="conduct-access" class="btn-menu c4">Código de Conducta</a>
                     
@@ -915,7 +915,8 @@
                 var element = event.target;
                 switch(element.id){
                     case 'home-access':{
-                        generateHome();
+                        window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
+                        //generateHome();
                     }break;
                     case 'staff-access':{
                         generateStaff();
