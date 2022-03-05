@@ -41,7 +41,7 @@ var events = [
     },
     {
         "name": "M\u00e1s all\u00e1 de mis l\u00edmites: sanando en las cumbres",
-        "description": "",
+        "description": "Soy una mujer fuerte que confía en sí misma, con mucha energía y con ganas de disfrutar este viaje que se llama vida, pero no siempre fue así. Gracias a que el universo un día me dio un empujón a la cumbre del Volcán Acatenango mi vida empezó a tomar sentido.",
         "speaker": "Maritza Moreno",
         "day": "11",
         "time": "10:00",
@@ -190,9 +190,9 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Mi Journey hacia el Technology leadership Program de PayPal",
+        "name": "Qué es DevOps y cómo puedes iniciar en ese mundo",
         "description": "",
-        "speaker": "Alejandra Josue",
+        "speaker": "Adriana Fernanda Moya",
         "day": "11",
         "time": "19:00",
         "place": "Track 1",
@@ -503,12 +503,12 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Gu\u00eda R\u00e1pida para Construir tu Portafolio como Programadora",
-        "description": "\u00bfEres programadora y quieres construir tu portafolio pero no sabes qu\u00e9 debes incluir en \u00e9l? En esta charla te compartir\u00e9 esta gu\u00eda r\u00e1pida para que te sirva de orientaci\u00f3n.",
-        "speaker": "Nancy Salazar",
+        "name": "De IC a Manager a Technology Leadership Program Candidate",
+        "description": "",
+        "speaker": "Alejandra Josue",
         "day": "12",
         "time": "11:30",
-        "place": "Track 1",
+        "place": "Track 2",
         "subjects": [],
         "tba": "0"
     },
@@ -533,9 +533,9 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Que es DevOps y como puedes iniciar en ese mundo",
-        "description": "",
-        "speaker": "Adriana Fernanda Moya",
+        "name": "Gu\u00eda R\u00e1pida para Construir tu Portafolio como Programadora",
+        "description": "\u00bfEres programadora y quieres construir tu portafolio pero no sabes qu\u00e9 debes incluir en \u00e9l? En esta charla te compartir\u00e9 esta gu\u00eda r\u00e1pida para que te sirva de orientaci\u00f3n.",
+        "speaker": "Nancy Salazar",
         "day": "12",
         "time": "12:00",
         "place": "Track 1",

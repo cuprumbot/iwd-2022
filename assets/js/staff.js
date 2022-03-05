@@ -30,9 +30,9 @@ var staff = [
     {
         "name": "Maritza Moreno",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Soy madre, montañista y química bióloga.",
+        "image": "MaritzaMoreno.jpg",
+        "nationality": "guatemala"
     },
     {
         "name": "Mar\u00eda Alejandra Monz\u00f3n Gir\u00f3n",
@@ -119,25 +119,11 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        "name": "Andrea Magaly Mendoza",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
-    },
-    {
         "name": "Milza Merari P\u00e9rez Suruy",
         "short": "",
         "information": "Milza Merari P\u00e9rez\nLicenciada en Administraci\u00f3n de Hoteler\u00eda, Turismo y Gastronom\u00eda\nEstudios actuales : Master en marketing digital y comercio electronico\nDocente \nAsesora y Consultora.\n",
         "image": "MilzaMerariPerezSuruy.jpg",
         "nationality": "guatemala"
-    },
-    {
-        "name": "Alejandra Josue",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
     },
     {
         "name": "Karla Marisol P\u00e9rez Romero",
@@ -149,9 +135,9 @@ var staff = [
     {
         "name": "Erika Luna",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Constructura de comunidades de emprendimiento y tecnología por 10 años.\nPor 3 años he lanzado y y dirigido la estrategia de desarrollo de comunidad para la plataforma de educación más grande de Latinoamérica, como Head of Comunity en Platzi. Más de 6 millones de desarrolladores han sido parte de los programas que he creado para incrementar la adopción de nuestra plataforma y de productos de nuestros aliados como Google, Meta, IBM y Microsoft.\nParte del contenido que he creado y ejecutado son eventos en línea y presenciales como talleres, cursos, transmisiones en vivo, contenido para Youtube, podcasts y desafíos.\nTambién lidero el Google Developer Group - GDG Cloud México City, soy parte del programa de Women Techmakers Ambassadors, y he sido parte del programa Google for Startups Mentor.",
+        "image": "ErikaLuna.jpg",
+        "nationality": "mexico"
     },
     {
         "name": "D\u00e9bora Natareno",
@@ -250,9 +236,9 @@ var staff = [
     {
         "name": "Marian Villa",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Es asesora en UI|UX de Google Launchpad y miembro calificador de SXSW 2020. Es CEO y co-fundadora de EVERSOCIAL agencia digital con más de 10 años en el mercado. Posee doble titulación como Diseñadora Gráfica y Comunicadora Social - Periodista de la Universidad Pontificia Bolivariana. Es Magister en Mercadeo de la universidad EAFIT donde su trabajo de grado se desarrolló sobre BIG DATA en Business Intelligence. Siempre ha trabajado de la mano de ingenieros y desarrolladores, y le apasiona el código, especialmente Javascript. Desde finales de 2016 es co-fundadora y Directora de @Pionerasdev, la Comunidad/ONG más grande de #WomenInTech en Colombia. Trabajando así, por reducir la brecha de género en carreras tecnológicas, enfocada en el cumplimiento de los ODS del Pacto Global de la ONU, específicamente en: Educación de calidad, equidad de género, trabajo decente y crecimiento económico y reducción de las desigualdades.",
+        "image": "MarianVilla.png",
+        "nationality": "colombia"
     },
     {
         "name": "Paola Alejandra Vanessa Baldiz\u00f3n Marroqu\u00edn",
@@ -276,33 +262,13 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        "name": "Dinorah Tovar",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
-    },
-    {
         "name": "Catherine Ramirez",
         "short": "",
         "information": "Mam\u00e1, comunicadora Social, escritora, l\u00edder social, coach de vida, diplomada en Periodismo, Integraci\u00f3n y opini\u00f3n p\u00fablica, fundadora del Parlamento Internacional de Emprendedoras, premio Latinoamericano en , premio \"Juana Velasco de Gallo\" mujer lider social (otorgado por Vicepresidencia de la Rep\u00fablica de Colombia).",
         "image": "CatherineRamirez.jpg",
         "nationality": "colombia"
     },
-    {
-        "name": "Ceci Castillo",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
-    },
-    {
-        "name": "Ada Luc\u00eda",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
-    },
+
     {
         "name": "Ericka Judith Sig\u00fcenza Mu\u00f1oz",
         "short": "",
@@ -320,16 +286,16 @@ var staff = [
     {
         "name": "Katherine Chauca",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Ingeniera Informática, G Suite Certified Deployment Specialist y Product Owner. Women Techmaker Ambassador y coorganizadora de las comunidades GDG Lima, GDG Cloud Lima y Agile Perú. Apasionada por compartir y empoderar comunidades profesionales poniendo foco especialmente en que las actividades sean inclusivas y fomenten la participación de más mujeres en tecnología.",
+        "image": "KatherineChauca.jpg",
+        "nationality": "peru"
     },
     {
         "name": "Devora Meza",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Experta en Ciberseguridad, Ethical Hacker, académica con estudios de Doctorado en Seguridad, Maestría Formulación y Evaluación de Proyectos, Ingeniera en Sistemas, Especializaciones en Corea del Sur, 10 años en docencia, asesoría e investigación universitaria y 16 años de experiencia en sistematización de procesos e implementación de proyectos de tecnología en instituciones de gobierno y cooperación internacional.",
+        "image": "DevoraMeza.jpg",
+        "nationality": "guatemala"
     },
     {
         "name": "Sammy Arburola",
@@ -360,13 +326,6 @@ var staff = [
         "nationality": "mexico"
     },
     {
-        "name": "Andrea Paniagua",
-        "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
-    },
-    {
         "name": "Sofia Celeste G\u00f3mez Mel\u00e9ndez",
         "short": "",
         "information": "Mi nombre es Sofia Celeste G\u00f3mez Mel\u00e9ndez, tengo 21 a\u00f1os. A los 16 a\u00f1os ingres\u00e9 a la universidad y desde esa edad trabajo, he sido maestra, community manager, encargada de mercadeo, estoy iniciando mi propia agencia de mercadeo digital y fund\u00e9 una tienda de ropa preloved. Soy egresada de Publicidad Profesional USAC y en proceso de tesis de la licenciatura en Ciencias de la Comunicaci\u00f3n. \nHe formado parte de voluntariados con ni\u00f1os y j\u00f3venes tanto en temas de Orientaci\u00f3n vocacional como crecimiento personal y formaci\u00f3n general, actualmente soy la encargada de telemercadeo de Quinfica.",
@@ -376,9 +335,9 @@ var staff = [
     {
         "name": "Adriana Fernanda Moya",
         "short": "",
-        "information": "",
-        "image": "default.png",
-        "nationality": ""
+        "information": "Ingeniera de Sistemas, especialista en Ingeniería de Software, Google Developer Expert en la categoría Google Cloud Platform, Cloud Engineer en Globant, con experiencia de más de 5 años en desarrollo usando tecnología de Open Source, Apasionada por enseñar, aprender y compartir. runner, ciclomontañista y amante de los gatos. Linkedin: https://www.linkedin.com/in/adrifermo/",
+        "image": "AdrianaFernandaMoya.png",
+        "nationality": "colombia"
     },
     {
         "name": "Mari\u00e1n Marcelle Berganza Jongezoon",
@@ -463,5 +422,50 @@ var staff = [
         "information": "Soy arquitecta, tengo 4 a\u00f1os de experiencia en la arquitectura y dise\u00f1o, so\u00f1\u00e9 con esta carrera desde que ten\u00eda 12 a\u00f1os y desde entonces ha sido un camino lleno de altos y bajos pero sea bueno o malo, todo es un aprendizaje. El hecho de tener la oportunidad de ver mis dise\u00f1os en proceso de construcci\u00f3n es un sue\u00f1o hecho realidad. Actualmente a nivel residencial se est\u00e1n construyendo 4 proyectos (casas) y Gracias a Dios ha sido algo que me llena de alegr\u00eda y saber que s\u00ed se puede.",
         "image": "MirnaAndreaCastanedaMelgar.jpg",
         "nationality": "guatemala"
+    },
+
+
+
+    {
+        "name": "Dinorah Tovar",
+        "short": "",
+        "information": "Google Developer Expert en Android. Ingeniera. Co-fundadora y desarrolladora de software en Minttcode.",
+        "image": "DinorahTovar.jpg",
+        "nationality": "mexico"
+    },
+    {
+        "name": "Andrea Magaly Mendoza",
+        "short": "",
+        "information": "Ingeniera en Ciencia de la Computación y Tecnologías de la Información. Máster en Inteligencia de Negocios y Tecnología de Innovación, con minor en Project Management. Desarrolladora y analista desde 2015. Scrum Master. Actualmente trabaja como Senior Software Engineer en desarrollo para móviles.",
+        "image": "AndreaMagalyMendoza.jpg",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Andrea Paniagua",
+        "short": "",
+        "information": "Ingeniera en bioinformática. Máster en Big Data Analytics. Desarrolladora y analista, actualmente trabajando como Jr. Business Intelligence Analyst en HealthCare.com",
+        "image": "AndreaPaniagua.jpg",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Alejandra Josue",
+        "short": "",
+        "information": "Ingeniera en Ciencia de la Computación y Tecnologías de la Información, y Master in Business Administration. Desarrolladora de software desde 2014. Actualmente parte del Technology Leadership Program Cohort, de Paypal.",
+        "image": "AlejandraJosue.jpg",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Ada Luc\u00eda",
+        "short": "",
+        "information": "Entusiaste en el área de Bases de Datos y Ciencia de Datos. Actualmente realizando un intership en Rappi en el equipo de Tech & Product. Siempre aprendiendo y buscando crecer. Fanática de los libros desde 2013. Aprendamos juntas!",
+        "image": "AdaLucia.webp",
+        "nationality": "guatemala"
+    },
+    {
+        name: 'Ceci Castillo',
+        short: '',
+        information: 'Ingeniera en Sistemas, desarrolladora de software ha desarrollado aplicaciones móviles por más de 8 años tanto para android como iOS actualmente trabaja desarrollando iOS en PayPal. Co-Organizadora del GDG Guatemala, Embajadora de Women Techmakers. Runner, Speaker y me encanta leer.',
+        image: 'CeciCastillo.jpg',
+        nationality: 'guatemala'
     }
 ];
