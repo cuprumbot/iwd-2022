@@ -1,7 +1,7 @@
 var events = [
     {
         "name": "Transformaci\u00f3n digital en la era de las Womanpreneur",
-        "description": "1. La importancia de la transformaci\u00f3n digital en todos los \u00e1mbitos\n2.Las womanpreneur 3.0\n3. La importancia del liderazgo digital",
+        "description": "Importancia de la transformaci\u00f3n digital en todos los \u00e1mbitos\nLas womanpreneur 3.0\nImportancia del liderazgo digital",
         "speaker": "Andrea Cabrera",
         "day": "11",
         "time": "09:00",
@@ -11,7 +11,7 @@ var events = [
     },
     {
         "name": "Confianza personal",
-        "description": "La confianza que debe tener una mujer en si misma para lograr sus metas y sue\u00f1os. \n",
+        "description": "La confianza que debe tener una mujer en si misma para lograr sus metas y sue\u00f1os.",
         "speaker": "Astrid Guill\u00e9n",
         "day": "11",
         "time": "09:00",
@@ -21,7 +21,7 @@ var events = [
     },
     {
         "name": "Las otras aplicaciones de la ingenier\u00eda",
-        "description": "La charla se enfocar\u00e1 en presentarles c\u00f3mo una carrera en ciencia y tecnolog\u00eda nos puede servir para desarrollar herramientas que van m\u00e1s all\u00e1 de las aplicaciones que tradicionalmente pensamos cuando hablamos de ingenier\u00eda.",
+        "description": "C\u00f3mo una carrera en ciencia y tecnolog\u00eda nos puede servir para desarrollar herramientas que van m\u00e1s all\u00e1 de las aplicaciones que tradicionalmente pensamos cuando hablamos de ingenier\u00eda.",
         "speaker": "Andrea Lara",
         "day": "11",
         "time": "09:30",
@@ -31,7 +31,7 @@ var events = [
     },
     {
         "name": "Las historias que me invento antes de dormir",
-        "description": "Tengo pensando hablar sobre storytelling. Para ello quiero basarme en el insight de nuestra habilidad (como mujeres) para inventarnos historias y contarlas. Haciendo ver que podemos convertir algo ordinario en una herramienta extraordinaria, necesaria hoy en d\u00eda y capaz de ayudarnos a conectar con otros, ya sea para vender algo, comunicar mejor una idea, crear comunidad o mejorar la presencia de nuestra marca en internet.",
+        "description": "Storytelling. Insight de nuestra habilidad (como mujeres) para inventarnos historias y contarlas. Podemos convertir algo ordinario en una herramienta extraordinaria, necesaria hoy en d\u00eda y capaz de ayudarnos a conectar con otros, ya sea para vender algo, comunicar mejor una idea, crear comunidad o mejorar la presencia de nuestra marca en internet.",
         "speaker": "Annella Marcano",
         "day": "11",
         "time": "09:30",
@@ -51,7 +51,7 @@ var events = [
     },
     {
         "name": "\u00bfC\u00f3mo abrir camino en el deporte nacional?",
-        "description": "Dar a conocer el proceso de integraci\u00f3n de la psicolog\u00eda al deporte nacional.",
+        "description": "Proceso de integraci\u00f3n de la psicolog\u00eda al deporte nacional.",
         "speaker": "Mar\u00eda Alejandra Monz\u00f3n Gir\u00f3n",
         "day": "11",
         "time": "10:00",
@@ -61,7 +61,7 @@ var events = [
     },
     {
         "name": "Liderazgo y empoderamiento juvenil",
-        "description": "Todas las mujeres tenemos un l\u00edder dentro, no importa si somos introvertidas o extrovertidas, todas podemos explotar nuestras habilidades para alcanzar nuestras metas. \nComo mujeres empoderadas tenemos la oportunidad de generar cambios y romper paradigmas.",
+        "description": "Todas las mujeres tenemos una l\u00edder dentro, no importa si somos introvertidas o extrovertidas, todas podemos explotar nuestras habilidades para alcanzar nuestras metas. \nComo mujeres empoderadas tenemos la oportunidad de generar cambios y romper paradigmas.",
         "speaker": "Alison Michelle Cuyuch Osorio",
         "day": "11",
         "time": "10:30",
@@ -71,7 +71,7 @@ var events = [
     },
     {
         "name": "Mujeres y las Carreras STEAM",
-        "description": "El porcentaje de mujeres que estudian carreras Steam es muy bajo, la UNESCO reporta alrededor de 33%, eso disminuye enormemente la representatividad de la mujer en los puestos del futuro y aumentarla brecha salarial que hoy existe al menos en Am\u00e9rica Latina de 28% ya que los puestos mejor remunerados del mercado. Responder el por qu\u00e9 es vital para romper los estereotipos y aumentar la participaci\u00f3n de las ni\u00f1as y j\u00f3venes en estas profesiones.",
+        "description": "El porcentaje de mujeres que estudian carreras STEAM es muy bajo, la UNESCO reporta alrededor de 33%, eso disminuye enormemente la representatividad de la mujer en los puestos del futuro y aumentarla brecha salarial que hoy existe al menos en Am\u00e9rica Latina de 28% ya que los puestos mejor remunerados del mercado. Responder el por qu\u00e9 es vital para romper los estereotipos y aumentar la participaci\u00f3n de las ni\u00f1as y j\u00f3venes en estas profesiones.",
         "speaker": "Ana Mar\u00eda Daly",
         "day": "11",
         "time": "10:30",
@@ -81,7 +81,7 @@ var events = [
     },
     {
         "name": "Aprendiendo ciencias en la era digital.",
-        "description": "La importancia de aprender las ciencias experimentales en una nueva era.",
+        "description": "Importancia de aprender las ciencias experimentales en una nueva era.",
         "speaker": "Magdalena Waleska Aldana Segura",
         "day": "11",
         "time": "11:00",
@@ -121,7 +121,7 @@ var events = [
     },
     {
         "name": "El poder transformador de la empat\u00eda",
-        "description": "Generamos cambios a trav\u00e9s de propuestas innovadoras, creativas, que dan soluciones a problemas que no han sido resueltos, hasta el momento. Qu\u00e9 pasa cuando adem\u00e1s de dar soluciones objetivas y pr\u00e1cticas, tambi\u00e9n transformamos vidas a trav\u00e9s de la empat\u00eda? Sin importar cu\u00e1l sea el proyecto, escuchar, entender y empoderar a quienes estamos ayudando, no solamente facilita los procesos sino capacita elementos humanos capaces de continuar generando cambios.",
+        "description": "Generamos cambios a trav\u00e9s de propuestas innovadoras, creativas, que dan soluciones a problemas que no han sido resueltos, hasta el momento. ¿Qu\u00e9 pasa cuando adem\u00e1s de dar soluciones objetivas y pr\u00e1cticas, tambi\u00e9n transformamos vidas a trav\u00e9s de la empat\u00eda? Sin importar cu\u00e1l sea el proyecto, escuchar, entender y empoderar a quienes estamos ayudando, no solamente facilita los procesos sino capacita elementos humanos capaces de continuar generando cambios.",
         "speaker": "Vera Sofia Letona",
         "day": "11",
         "time": "12:00",
@@ -131,7 +131,9 @@ var events = [
     },
     {
         "name": "Rompiendo esquemas desde el dise\u00f1o",
-        "description": "Desde mi propia experiencia de la dificultad de encontrar una carrera donde desarrollar mi potencial art\u00edstico y tecnol\u00f3gico. Encontr\u00e9 la manera de crear mi propio camino en el dise\u00f1o combinado con el arte y mi pasi\u00f3n por la tecnolog\u00eda. Crear comunicaci\u00f3n, emprender, no dejar de perseguir mis sue\u00f1os y disfrutar cada minuto de mi profesi\u00f3n. Actualmente estoy cerrando mi carrera de comunicaci\u00f3n y dise\u00f1o, la cu\u00e1l me ha brindado las herramientas para trabajar en proyectos que hace 5 o 6 a\u00f1os trabajos que no exist\u00edan, content manager, community manager, creaci\u00f3n de marcas. Adem\u00e1s crear mi propio emprendimiento, continuar en mis estudios de m\u00fasica y haciendo un impacto positivo por el desarrollo de este en el pa\u00eds. Abrirse campo siendo mujer joven, es un reto pero compartir las oportunidades que nos esperan y que nosotras mismas podemos ir creando, a pesar de las dificultades, el buscar la formaci\u00f3n constante, innovar, plantear objetivos y estar dispuesta a cambiar un poco los planes ha sido mi mayor aprendizaje en estos a\u00f1os donde encontr\u00e9 mi pasi\u00f3n y al mismo tiempo romper esquemas de lo que conoc\u00edamos como oportunidades del dise\u00f1o.",
+        "description": "Mi experiencia sobre la dificultad de encontrar una carrera donde desarrollar mi potencial artístico y tecnológico y cómo encontré la manera de crear mi propio camino en el diseño combinado con el arte y mi pasión por la tecnología.",
+
+        /*Desde mi propia experiencia de la dificultad de encontrar una carrera donde desarrollar mi potencial art\u00edstico y tecnol\u00f3gico. Encontr\u00e9 la manera de crear mi propio camino en el dise\u00f1o combinado con el arte y mi pasi\u00f3n por la tecnolog\u00eda. Crear comunicaci\u00f3n, emprender, no dejar de perseguir mis sue\u00f1os y disfrutar cada minuto de mi profesi\u00f3n. Actualmente estoy cerrando mi carrera de comunicaci\u00f3n y dise\u00f1o, la cu\u00e1l me ha brindado las herramientas para trabajar en proyectos que hace 5 o 6 a\u00f1os trabajos que no exist\u00edan, content manager, community manager, creaci\u00f3n de marcas. Adem\u00e1s crear mi propio emprendimiento, continuar en mis estudios de m\u00fasica y haciendo un impacto positivo por el desarrollo de este en el pa\u00eds. Abrirse campo siendo mujer joven, es un reto pero compartir las oportunidades que nos esperan y que nosotras mismas podemos ir creando, a pesar de las dificultades, el buscar la formaci\u00f3n constante, innovar, plantear objetivos y estar dispuesta a cambiar un poco los planes ha sido mi mayor aprendizaje en estos a\u00f1os donde encontr\u00e9 mi pasi\u00f3n y al mismo tiempo romper esquemas de lo que conoc\u00edamos como oportunidades del dise\u00f1o.*/
         "speaker": "Ana Sof\u00eda Menchu Jim\u00e9nez",
         "day": "11",
         "time": "12:00",
@@ -161,7 +163,7 @@ var events = [
     },
     {
         "name": "Mujeres lideres",
-        "description": "Me gustar\u00eda poder transmitirles al publico la importancia de las mujeres en la sociedad, el poder de liderar es una virtud que todas tenemos, el cual empieza desde que somos peque\u00f1as, desde la casa, somos ejemplo no importando, si somo mamas, el estado social y civil, el empoderar mujeres y hacerles saber la importancia que es nuestro papel en todos los \u00e1mbitos de nuestra vida vale la pena.",
+        "description": "La importancia de las mujeres en la sociedad: el poder de liderar es una virtud que todas tenemos, el cual empieza desde que somos peque\u00f1as desde la casa. Somos ejemplo no importando si somo mamás o el estado social y civil. El empoderar mujeres y hacerles saber la importancia que es nuestro papel en todos los \u00e1mbitos de nuestra vida vale la pena.",
         "speaker": "Mar\u00eda Fernanda Montenegro",
         "day": "11",
         "time": "18:00",
@@ -181,7 +183,7 @@ var events = [
     },
     {
         "name": "Como perder el miedo a vender",
-        "description": "Brindar diferentes tips a cerca de vender ya que es imprescindible para los emprendimientos o negocios creados\n",
+        "description": "Tips acerca de vender ya que es imprescindible para los emprendimientos o negocios creados.",
         "speaker": "Milza Merari P\u00e9rez Suruy",
         "day": "11",
         "time": "18:25",
@@ -201,7 +203,7 @@ var events = [
     },
     {
         "name": "Finanzas personales para Freelancers, c\u00f3mo administrar mejor tu dinero",
-        "description": "Como Freelance o trabajadora independiente, es complicado tener un flujo de ingresos y egresos controlado. En esta charla te mostrar\u00e9 herramientas \u00fatiles para que puedas gestionar tus finanzas eficientemente.",
+        "description": "Como Freelance o trabajadora independiente, es complicado tener un flujo de ingresos y egresos controlado. En esta charla te mostrar\u00e9 herramientas \u00fatiles para que puedas gestionar tus finanzas eficientemente",
         "speaker": "Karla Marisol P\u00e9rez Romero",
         "day": "11",
         "time": "19:00",
@@ -221,7 +223,7 @@ var events = [
     },
     {
         "name": "Telecomunicaciones en emergencias",
-        "description": "la importancia de las telecomunicaciones y el impacto emocional en las personas en eventos de desastres naturales",
+        "description": "Importancia de las telecomunicaciones y el impacto emocional en las personas en eventos de desastres naturales",
         "speaker": "D\u00e9bora Natareno",
         "day": "11",
         "time": "19:30",
@@ -231,7 +233,7 @@ var events = [
     },
     {
         "name": "Liderazgo en mujeres de alto rendimiento",
-        "description": "Llevo 15 a\u00f1os siendo tallerista y mi charla se basa en: \n1)Desaprender para crecer hacia un nuevo duriro\n2) Competencias para mujeres \n3) Midiendo liderazgo ... C\u00f3mo estoy frente a las exigencias de la vida actual\n4) aprendiendo del Bushido (filosof\u00eda del samurai hacia el servicio a partir del liderazgo oriental)",
+        "description": "Desaprender para crecer hacia un nuevo futuro\nCompetencias para mujeres \nMidiendo liderazgo: C\u00f3mo estoy frente a las exigencias de la vida actual\nAprendiendo del Bushido (filosof\u00eda del samurai hacia el servicio a partir del liderazgo oriental)",
         "speaker": "Akemy Doku",
         "day": "11",
         "time": "19:45",
@@ -261,7 +263,7 @@ var events = [
     },
     {
         "name": "Bienvenida al mundo de la tecnolog\u00eda",
-        "description": "Exploraremos:\n1. Un poco de historia y el rol de la mujer en la tecnolog\u00eda\n2. C\u00f3mo entre yo a este mundo, fundando una empresa de entrenamiento de Software Developers\n3. Y c\u00f3mo m\u00e1s mujeres pueden entrar a este mundo, qu\u00e9 esperar",
+        "description": "Historia y el rol de la mujer en la tecnolog\u00eda\nC\u00f3mo entré yo a este mundo, fundando una empresa de entrenamiento de Software Developers\nC\u00f3mo m\u00e1s mujeres pueden entrar a este mundo y qu\u00e9 pueden esperar",
         "speaker": "Maria Sofia Castillo",
         "day": "11",
         "time": "20:15",
@@ -291,7 +293,7 @@ var events = [
     },
     {
         "name": "El Arte del Caos",
-        "description": "Los seres humanos estamos hechos de la misma materia del Big Bang. 99% caos y 0. 03333% de orden. El arte del caos es mi forma de balancear mi vida en el caos. Ser feliz estando inc\u00f3moda con los peque\u00f1os obst\u00e1culos que enfrentamos en el d\u00eda a d\u00eda o inclusive los grandes retos de largo plazo. Creo que la vida no tiene una receta para vivirla. No es como un anillo que puede tener una talla universal, sino un vestido que hay que tallar a nuestra medida y ajustando conforme nuestro cuerpo cambia. Por ende esta charla es m\u00e1s un testimonio de experiencia del que espero personas puedan sacar herramientas para experimentar y utilizar herramientas para seguir construyendo su camino. Cuando inici\u00f3 la cuarentena mi reto fue ponerle freno de mano a mi vida estudiantil y laboral, mi pasi\u00f3n se encontraba en lo que hac\u00eda en mi d\u00eda a d\u00eda afuera de mi casa. Pero estando dentro de mi casa, al cabo de unos meses ca\u00ed dentro de la comodidad y con la comodidad vino el miedo a experimentar y vivir mi pasi\u00f3n. Dej\u00e9 de creerme capaz de lograr mis metas por lo c\u00f3moda que estaba, o inclusive ni plantearme m\u00e1s por estar mi mundo sedentario en donde los d\u00edas consist\u00edan de estar en casa viendo pel\u00edculas. ?El mundo se volvi\u00f3 un tanto aterrador y la chispa o fuego que ten\u00eda por cumplir mis sue\u00f1os se comenz\u00f3 a disipar. Y cuando esa chispa se empez\u00f3 a extinguir, empec\u00e9 a descuidar otros aspectos de mi vida. \nCuando nuestra chispa se apaga tenemos repercusiones f\u00edsicas, emocionales y con esas dos se crea una cadena de enredos que pueden repercutir en nuestra \u00e1rea laboral o vida social. Mi soluci\u00f3n fue incomodarme. En l sacharla contar\u00e9 que fue lo que pas\u00f3 y como me volv\u00ed a encontrar gracias al caos. Fue \u00e9l, quien me sac\u00f3 del modo piloto autom\u00e1tico, a ser la mujer que soy hoy.?",
+        "description": "Los seres humanos estamos hechos de la misma materia del Big Bang, 99% de caos y 0.03333% de orden. El arte del caos es mi forma de balancear mi vida en el caos.\nCuando nuestra chispa se apaga tenemos repercusiones físicas, emocionales y con esas dos se crea una cadena de enredos que pueden repercutir en nuestra área laboral o vida social. Cuando esto me sucedió durante la cuarentena mi solución fue incomodarme. Contaré que fue lo que pasó y como me volví a encontrar gracias al caos. Fue él, quien me sacó del modo piloto automático, a ser la mujer que soy hoy.",
         "speaker": "Marisa A Toriello",
         "day": "11",
         "time": "20:30",
@@ -300,8 +302,8 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "De la poes\u00eda al Ux Writing",
-        "description": "No todas tenemos la oportunidad de conocer todas las \u00e1reas de la tecnolog\u00eda y yo inmersa en el universo art\u00edstico desconoc\u00eda del Ux, y pensaba que no ten\u00eda lugar en la tecnolog\u00eda por ser artista. El camino dentro del UX me ense\u00f1\u00f3 que pod\u00eda aportar mucho a la experiencia de usuarios desde mi perspectiva. Todas desde nuestro lugar podemos conseguir nuestro lugar acompa\u00f1adas y disfrutar el proceso.",
+        "name": "De la poes\u00eda al UX Writing",
+        "description": "No todas tenemos la oportunidad de conocer todas las \u00e1reas de la tecnolog\u00eda y yo inmersa en el universo art\u00edstico desconoc\u00eda del UX, y pensaba que no ten\u00eda lugar en la tecnolog\u00eda por ser artista. El camino dentro del UX me ense\u00f1\u00f3 que pod\u00eda aportar mucho a la experiencia de usuarios desde mi perspectiva.",
         "speaker": "Raymel Tarazona",
         "day": "11",
         "time": "20:45",
@@ -344,7 +346,7 @@ var events = [
     },
     {
         "name": "Crece y florece",
-        "description": "Crecer desde adentro es florecer hacia afuera\nTemas a tratar: \n\n1. Metas con prop\u00f3sito: \n\u00bfcu\u00e1l es tu visi\u00f3n para este 2022?\n\u00bfconoces tu prop\u00f3sito? \u00bfte sientes inspirada o motivada? \n\n2. Elabora un plan de crecimiento que funcione.\na) Establece un tiempo\nb) Busca un mentor\nc) Rod\u00e9ate de personas en tu misma sinton\u00eda\nd) Antic\u00edpate a los desv\u00edos \n\n\n",
+        "description": "Crecer desde adentro es florecer hacia afuera\n- Metas con prop\u00f3sito: ¿Cu\u00e1l es tu visi\u00f3n para este 2022? ¿Conoces tu prop\u00f3sito? ¿Te sientes inspirada o motivada?\n- Elabora un plan de crecimiento que funcione: Establece un tiempo, busca un mentor, rod\u00e9ate de personas en tu misma sinton\u00eda, antic\u00edpate a los desv\u00edos",
         "speaker": "Emma Cristina Acosta Vallecillo",
         "day": "12",
         "time": "08:30",
@@ -364,7 +366,7 @@ var events = [
     },
     {
         "name": "Periodismo digital",
-        "description": "Hablar sobre c\u00f3mo es el periodismo en Guatemala y las nuevas tendencias.",
+        "description": "Periodismo en Guatemala y las nuevas tendencias.",
         "speaker": "Paola Alejandra Vanessa Baldiz\u00f3n Marroqu\u00edn",
         "day": "12",
         "time": "09:00",
@@ -374,7 +376,7 @@ var events = [
     },
     {
         "name": "Comunicaci\u00f3n Estrategica y medios digitales",
-        "description": "Principios de creaci\u00f3n de estrategias de contenido, tipos de p\u00fablicos, targets, mensajes adaptados a diferentes medios, story telling, etc.",
+        "description": "Principios de creaci\u00f3n de estrategias de contenido, tipos de p\u00fablicos, targets, mensajes adaptados a diferentes medios, story telling, y más",
         "speaker": "Karla Molina",
         "day": "12",
         "time": "09:00",
@@ -404,7 +406,7 @@ var events = [
     },
     {
         "name": "Liderazgo transformacional enfocado en los ODS",
-        "description": "#NAME?",
+        "description": "Cimientos del liderazgo transformador.\nProyecto de vida con propósito.\nMovilización de personas hacia propósitos comunes, alianzas y estrategias para el desarrollo e impacto social.\nImplementación de los ODS en el liderazgo transsformador.",
         "speaker": "Catherine Ramirez",
         "day": "12",
         "time": "09:30",
@@ -434,7 +436,7 @@ var events = [
     },
     {
         "name": "Transformaci\u00f3n Digital",
-        "description": "Entender el concepto de transformaci\u00f3n digital y la importancia de su integraci\u00f3n en todos los procesos y \u00e1reas de una organizaci\u00f3n. Impulsar a las personas y empresas a la utilizaci\u00f3n de tecnolog\u00edas, herramientas y plataformas digitales en general para el aprovechamiento de los beneficios que \u00e9ste genera, mejorando de manera interna como la manera de satisfacer a sus clientes, etc.",
+        "description": "Transformaci\u00f3n digital y la importancia de su integraci\u00f3n en todos los procesos y \u00e1reas de una organizaci\u00f3n. Impulsar a las personas y empresas a la utilizaci\u00f3n de tecnolog\u00edas, herramientas y plataformas digitales en general para el aprovechamiento de los beneficios que \u00e9ste genera, mejorando de manera interna como la manera de satisfacer a sus clientes.",
         "speaker": "Ericka Judith Sig\u00fcenza Mu\u00f1oz",
         "day": "12",
         "time": "10:00",
@@ -474,7 +476,7 @@ var events = [
     },
     {
         "name": "NIST: Un framework de cyberseguridad para todos",
-        "description": "Conoceremos los 3 pilares de la cyberseguridad y el framework NIST para aplicar de inmediato a nuestros proyectos desde la etapa de dise\u00f1o.",
+        "description": "Los 3 pilares de la cyberseguridad y el framework NIST para aplicar de inmediato a nuestros proyectos desde la etapa de dise\u00f1o.",
         "speaker": "Sammy Arburola",
         "day": "12",
         "time": "11:00",
@@ -484,7 +486,7 @@ var events = [
     },
     {
         "name": "Creando mi primera pipeline de datos en GCP",
-        "description": "La charla tiene como objetivo conocer y construir nuestro primer pipeline en GCP. Trabajaremos desde la ingesta, procesamiento y visualizaci\u00f3n con archivos en formato csv, json y consumiremos una API.",
+        "description": "Conocer y construir nuestro primer pipeline en GCP. Trabajaremos desde la ingesta, procesamiento y visualizaci\u00f3n con archivos en formato CSV, JSON y consumiremos una API.",
         "speaker": "Mirina Bony Esther Gonzales Rodriguez",
         "day": "12",
         "time": "11:00",
@@ -508,7 +510,7 @@ var events = [
         "speaker": "Alejandra Josue",
         "day": "12",
         "time": "11:30",
-        "place": "Track 2",
+        "place": "Track 1",
         "subjects": [],
         "tba": "0"
     },
@@ -524,7 +526,7 @@ var events = [
     },
     {
         "name": "Descubriendo hacia d\u00f3nde voy.",
-        "description": "No siempre sabemos que hacemos o hacia d\u00f3nde vamos, a veces es dif\u00edcil tomar una decisi\u00f3n sobre carrera o trabajo en un mundo lleno de oportunidades y vamos a conocer sobre esto. Normalmente la respuesta es \"sigue tu pasi\u00f3n\" pero \u00bfqu\u00e9 es pasi\u00f3n?, nos venden algo m\u00edtico d\u00f3nde la pasi\u00f3n es eso con lo que nacemos y nos levantaremos a las 5 am a hacer lo que nos gusta sin ning\u00fan malestar porque nos apasiona pero no es as\u00ed, nuestra pasi\u00f3n no es un campo de flores pero podemos descubrir que es eso que nos pesar\u00e1 menos y no tengo un camino m\u00e1gico o una ruta que me permita llegar pero s\u00ed 3 preguntas que nos pueden ayudar. Una sobre el presente, el pasado y el futuro.\nNo puedo decirte que hacer pero s\u00ed descubrir como hacerlo. Est\u00e1 bien cambiar.",
+        "description": "No siempre sabemos que hacemos o hacia d\u00f3nde vamos, a veces es dif\u00edcil tomar una decisi\u00f3n sobre carrera o trabajo en un mundo lleno de oportunidades y vamos a conocer sobre esto. Normalmente la respuesta es \"sigue tu pasi\u00f3n\" pero \u00bfqu\u00e9 es pasi\u00f3n? Nuestra pasi\u00f3n no es un campo de flores pero podemos descubrirla a través de 3 preguntas: Una sobre el presente, el pasado y el futuro.",
         "speaker": "Sofia Celeste G\u00f3mez Mel\u00e9ndez",
         "day": "12",
         "time": "11:30",
@@ -544,7 +546,7 @@ var events = [
     },
     {
         "name": "Liderazgo Femenino en Industria Publicitaria",
-        "description": "Me gustar\u00eda compartir la trayectoria de mi empresa, c\u00f3mo iniciamos, que barreras tuvimos, c\u00f3mo las enfrentamos, y sobre todo lo dif\u00edcil pero no imposible de emprender en una industria mayormente masculina, siendo mujer.",
+        "description": "Compartiré la trayectoria de mi empresa, c\u00f3mo iniciamos, que barreras tuvimos, c\u00f3mo las enfrentamos, y sobre todo lo dif\u00edcil pero no imposible de emprender en una industria mayormente masculina, siendo mujer.",
         "speaker": "Mari\u00e1n Marcelle Berganza Jongezoon",
         "day": "12",
         "time": "12:00",
@@ -554,7 +556,7 @@ var events = [
     },
     {
         "name": "Comercio Internacional ante la crisis del Covid",
-        "description": "Como es que el comercio ha impactado a nivel mundial a partir de la pandemia y el rol de la mujer en las importaciones y exportaciones.",
+        "description": "Impacto del comercio a nivel mundial a partir de la pandemia y el rol de la mujer en las importaciones y exportaciones.",
         "speaker": "Heymmy Sucely Saravia Ramirez",
         "day": "12",
         "time": "12:00",
@@ -574,7 +576,7 @@ var events = [
     },
     {
         "name": "Inclusi\u00f3n de la mujer en la ingenier\u00eda",
-        "description": "Mi charla estar\u00eda enfocada en apoyar e impulsar a las mujeres s que quieren estudiar una carrera que es de \"hombres\" y que tienen miedo de no lograrlo por los estereotipos establecidos por la sociedad y darles a entender que podemos lograr lo que sea si creemos en nosotras.",
+        "description": "Apoyar e impulsar a las mujeres s que quieren estudiar una carrera que es de \"hombres\" y que tienen miedo de no lograrlo por los estereotipos establecidos por la sociedad y darles a entender que podemos lograr lo que sea si creemos en nosotras.",
         "speaker": "F\u00e1tima Alejandra Gir\u00f3n Cort\u00e9z",
         "day": "12",
         "time": "12:30",
@@ -584,7 +586,7 @@ var events = [
     },
     {
         "name": "La Tormenta del Trending",
-        "description": "Una charla sobre la vida de las tendencias digitales y c\u00f3mo podemos extraer oportunidades para contenido relevante, inteligente y altamente conversable.",
+        "description": "La vida de las tendencias digitales y c\u00f3mo podemos extraer oportunidades para contenido relevante, inteligente y altamente conversable.",
         "speaker": "Angelica Qui\u00f1onez",
         "day": "12",
         "time": "12:30",

@@ -984,6 +984,7 @@ nav {
       .events-container .event-date {
         font-size: 18px; } }
   .events-container .event-card {
+    white-space: pre-line;
     display: none;
     flex-direction: row;
     margin-right: 22px;

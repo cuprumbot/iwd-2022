@@ -212,7 +212,7 @@
         var html = "";
             html += '<span class="agenda-container">';
             html += '<span class="subtitle">';
-            html += 'Viernes 5 de marzo';
+            html += 'Viernes 11 de marzo';
             html += '</span>';
             html += '<p>';
             html += '09:00 a 13:00 - Colegios (comunicarse con evecruz@galileo.edu para participar)';
@@ -221,7 +221,7 @@
             html += '18:00 a 21:00 - Público en general';
             html += '</p>';
             html += '<span class="subtitle">';
-            html += 'Sábado 6 de marzo';
+            html += 'Sábado 12 de marzo';
             html += '</span>';
             html += '<p>';
             html += '08:00 a 13:30 - Público en general';
@@ -264,10 +264,10 @@
         
         html += '<span class="day-selection">';
         html += '<span n="1" class="day-selector selected">';
-        html += 'Viernes 5'
+        html += 'Viernes 11'
         html += '</span>';
         html += '<span n="2" class="day-selector">';
-        html += 'Sábado 6'
+        html += 'Sábado 12'
         html += '</span>';
         html += '</span>';
         html += '<span class="time-selection">';
@@ -320,8 +320,8 @@
                     separationCount++;
                     html += (separationCount == 1)? `<span n="${separationCount}" class="day-card shown">` : `<span n="${separationCount}" class="day-card">`;
                     html += '<span class="event-date">';
-                    if(event.day == 5) html += 'Viernes, 5 de marzo';
-                    else if(event.day == 6) html += 'Sábado, 6 de marzo';
+                    if(event.day == 11) html += 'Viernes, 11 de marzo';
+                    else if(event.day == 12) html += 'Sábado, 12 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }
@@ -533,8 +533,8 @@
 
                 if(oldDay != event.day){
                     html += '<span class="event-date">';
-                    if(event.day == 5) html += 'Viernes, 5 de marzo';
-                    else if(event.day == 6) html += 'Sábado, 6 de marzo';
+                    if(event.day == 11) html += 'Viernes, 11 de marzo';
+                    else if(event.day == 12) html += 'Sábado, 12 de marzo';
                     html += '</span>';
                     oldDay = event.day;
                 }
@@ -915,7 +915,8 @@
                 var element = event.target;
                 switch(element.id){
                     case 'home-access':{
-                        window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
+                        window.location.href = "https://www.galileo.edu/page/international-women-day-women-techmakers/";
+                        //window.location.replace("https://www.galileo.edu/page/international-women-day-women-techmakers/");
                         //generateHome();
                     }break;
                     case 'staff-access':{
