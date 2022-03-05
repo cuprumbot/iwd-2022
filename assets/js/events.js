@@ -132,8 +132,6 @@ var events = [
     {
         "name": "Rompiendo esquemas desde el dise\u00f1o",
         "description": "Mi experiencia sobre la dificultad de encontrar una carrera donde desarrollar mi potencial artístico y tecnológico y cómo encontré la manera de crear mi propio camino en el diseño combinado con el arte y mi pasión por la tecnología.",
-
-        /*Desde mi propia experiencia de la dificultad de encontrar una carrera donde desarrollar mi potencial art\u00edstico y tecnol\u00f3gico. Encontr\u00e9 la manera de crear mi propio camino en el dise\u00f1o combinado con el arte y mi pasi\u00f3n por la tecnolog\u00eda. Crear comunicaci\u00f3n, emprender, no dejar de perseguir mis sue\u00f1os y disfrutar cada minuto de mi profesi\u00f3n. Actualmente estoy cerrando mi carrera de comunicaci\u00f3n y dise\u00f1o, la cu\u00e1l me ha brindado las herramientas para trabajar en proyectos que hace 5 o 6 a\u00f1os trabajos que no exist\u00edan, content manager, community manager, creaci\u00f3n de marcas. Adem\u00e1s crear mi propio emprendimiento, continuar en mis estudios de m\u00fasica y haciendo un impacto positivo por el desarrollo de este en el pa\u00eds. Abrirse campo siendo mujer joven, es un reto pero compartir las oportunidades que nos esperan y que nosotras mismas podemos ir creando, a pesar de las dificultades, el buscar la formaci\u00f3n constante, innovar, plantear objetivos y estar dispuesta a cambiar un poco los planes ha sido mi mayor aprendizaje en estos a\u00f1os donde encontr\u00e9 mi pasi\u00f3n y al mismo tiempo romper esquemas de lo que conoc\u00edamos como oportunidades del dise\u00f1o.*/
         "speaker": "Ana Sof\u00eda Menchu Jim\u00e9nez",
         "day": "11",
         "time": "12:00",
@@ -596,7 +594,7 @@ var events = [
     },
     {
         "name": "La sensibilidad y el poder del arte a trav\u00e9s de las palabras.",
-        "description": "El arte tiene muchas ventanas para expresarse y en cada uno de nosotros, encuentra una manera particular y especial de conectar, el arte es la belleza de quienes somos, pero tambi\u00e9n expresa aquello que sentimos y que muchas veces no podemos explicar.\n\nSoy escritora, por lo que me encantar\u00eda hablar sobre la expresi\u00f3n a trav\u00e9s de las palabras, porque hay muchas veces que no sabemos como expresar lo que sentimos y una actividad tan sencilla como escribir podr\u00eda ser de gran apoyo para desahogarnos, entendernos y escuchar todo lo que tenemos para decir.\n\nLas palabras son un puente entre lo que sentimos y lo queremos expresar, nos ayudan a entendernos y nos unen con m\u00e1s personas que se sienten justo como nosotras, las palabras dan poder, son esencia y lo m\u00e1s maravilloso es que siempre son ciertas, correctas y adecuadas, porque cuando escribes no exite error, es como te sientes, y eso est\u00e1 bien.",
+        "description": "El arte tiene muchas ventanas para expresarse y en cada uno de nosotros, encuentra una manera particular y especial de conectar, el arte es la belleza de quienes somos, pero tambi\u00e9n expresa aquello que sentimos y que muchas veces no podemos explicar.",
         "speaker": "Mildred Anabella Gonz\u00e1lez Lima",
         "day": "12",
         "time": "12:30",
@@ -626,7 +624,7 @@ var events = [
     },
     {
         "name": "La mujer como periodista digital",
-        "description": "C\u00f3mo llegar a hacer periodista en un medio digital en medio de una pandemia a nivel mundial",
+        "description": "C\u00f3mo llegar a ser periodista en un medio digital en medio de una pandemia a nivel mundial",
         "speaker": "Jocelyn Jeannette Guerra Carias",
         "day": "12",
         "time": "12:45",
@@ -636,7 +634,7 @@ var events = [
     },
     {
         "name": "La importancia de la accesibilidad",
-        "description": "Soy parte de la generaci\u00f3n que necesitar\u00e1 accesibilidad en el internet. Todos vamos a ser usuarios de accesibilidad en internet. Mientras nos hacemos mayores vamos perdiendo visibilidad, algo de color en nuestra vida, empieza una deficiencia en nuestra audici\u00f3n y definitivamente no nos volvemos m\u00e1s \u00e1giles o precisos con nuestras manos. Tendremos que ir aprendiendo a usar las herramientas de accesibilidad en el internet. Y podremos hacerlo si \u00e9stas existen. Existir\u00e1n si alguien las ha creado.",
+        "description": "Soy parte de la generaci\u00f3n que necesitar\u00e1 accesibilidad en el internet. Todos vamos a ser usuarios de accesibilidad en internet. Mientras nos hacemos mayores vamos perdiendo visibilidad, algo de color en nuestra vida, empieza una deficiencia en nuestra audici\u00f3n y definitivamente no nos volvemos m\u00e1s \u00e1giles o precisos con nuestras manos. Tendremos que ir aprendiendo a usar las herramientas de accesibilidad en el internet y podremos hacerlo si \u00e9stas existen.",
         "speaker": "Bayri Carolina Gonz\u00e1lez Morales",
         "day": "12",
         "time": "13:00",
@@ -646,7 +644,7 @@ var events = [
     },
     {
         "name": "Contenido con objetivo",
-        "description": "Soy dise\u00f1adora gr\u00e1fica y asesora de marketing digital, fusionando ambas he desarrollado un pensamiento cr\u00edtico del contenido que se crea en la actualidad, mi prop\u00f3sito m\u00e1s all\u00e1 de vender es conectar, crear a conciencia marcas y contenido que conecte con su audiencia, formando una comunidad s\u00f3lida, siempre reflejando el valor agregado del producto o marca a todos los mensajes que proyectan. Demostrar que el prop\u00f3sito final de las marcas va m\u00e1s all\u00e1 de vender y su objetivo no se basa solamente en \"modas\" y \"ser los m\u00e1s populares\".",
+        "description": "Soy dise\u00f1adora gr\u00e1fica y asesora de marketing digital, fusionando ambas he desarrollado un pensamiento cr\u00edtico del contenido que se crea en la actualidad, mi prop\u00f3sito m\u00e1s all\u00e1 de vender es conectar, crear a conciencia marcas y contenido que conecte con su audiencia, formando una comunidad s\u00f3lida, siempre reflejando el valor agregado del producto o marca a todos los mensajes que proyectan.",
         "speaker": "Andrea Feliza Misti Franco",
         "day": "12",
         "time": "13:00",
