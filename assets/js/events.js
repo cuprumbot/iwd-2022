@@ -362,12 +362,23 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    /*
     {
         "name": "Periodismo digital",
         "description": "Periodismo en Guatemala y las nuevas tendencias.",
         "speaker": "Paola Alejandra Vanessa Baldiz\u00f3n Marroqu\u00edn",
         "day": "12",
         "time": "09:00",
+        "place": "Track 2",
+        "subjects": [],
+        "tba": "0"
+    },*/
+    {
+        "name": "Activismo digital",
+        "description": "",
+        "speaker": "Lorayne Padilla y Andrea Beltrán",
+        "day": "12",
+        "time": "9:00",
         "place": "Track 2",
         "subjects": [],
         "tba": "0"

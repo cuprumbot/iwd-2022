@@ -142,7 +142,7 @@ var staff = [
     {
         "name": "D\u00e9bora Natareno",
         "short": "",
-        "information": "Soy licenciada en informatica y administraci\u00f3n de telecomunicaciones de la universidad galileo, tengo postgrado en sistemas de informaci\u00f3n y comunicaci\u00f3n de la USAC. Trabajo para el Programa Mundial de Alimentos de Naciones unidas desde marzo 2020 y desde 2016 trabajo para la oficina Regional en Panam\u00e1 dabdo soporte a todos los paises de la regi\u00f3n de america y el caribe en asistencia digital a beneficiarios y tambien en respuesta a emergencias.",
+        "information": "Soy licenciada en informatica y administraci\u00f3n de telecomunicaciones de la universidad galileo, tengo postgrado en sistemas de informaci\u00f3n y comunicaci\u00f3n de la USAC. Trabajo para el Programa Mundial de Alimentos de Naciones unidas desde marzo 2000 y desde 2016 trabajo para la oficina Regional en Panam\u00e1 dabdo soporte a todos los paises de la regi\u00f3n de america y el caribe en asistencia digital a beneficiarios y tambien en respuesta a emergencias.",
         "image": "DeboraNatareno.jpg",
         "nationality": "guatemala"
     },
@@ -240,6 +240,7 @@ var staff = [
         "image": "MarianVilla.png",
         "nationality": "colombia"
     },
+    /*
     {
         "name": "Paola Alejandra Vanessa Baldiz\u00f3n Marroqu\u00edn",
         "short": "",
@@ -247,6 +248,7 @@ var staff = [
         "image": "PaolaAlejandraVanessaBaldizonMarroquin.jpeg",
         "nationality": "guatemala"
     },
+    */
     {
         "name": "Karla Molina",
         "short": "",
@@ -462,10 +464,24 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        name: 'Ceci Castillo',
-        short: '',
-        information: 'Ingeniera en Sistemas, desarrolladora de software ha desarrollado aplicaciones móviles por más de 8 años tanto para android como iOS actualmente trabaja desarrollando iOS en PayPal. Co-Organizadora del GDG Guatemala, Embajadora de Women Techmakers. Runner, Speaker y me encanta leer.',
-        image: 'CeciCastillo.jpg',
-        nationality: 'guatemala'
+        "name": "Ceci Castillo",
+        "short": "",
+        "information": "Ingeniera en Sistemas, desarrolladora de software ha desarrollado aplicaciones móviles por más de 8 años tanto para android como iOS actualmente trabaja desarrollando iOS en PayPal. Co-Organizadora del GDG Guatemala, Embajadora de Women Techmakers. Runner, Speaker y me encanta leer.",
+        "image": "CeciCastillo.jpg",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Lorayne Padilla",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Andrea Beltrán",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": "guatemala"
     }
 ];
