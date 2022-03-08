@@ -376,7 +376,7 @@ var events = [
     {
         "name": "Activismo digital",
         "description": "",
-        "speaker": "Lorayne Padilla y Andrea Beltrán",
+        "speaker": ["Lorayne Padilla", "Andrea Beltrán"],
         "day": "12",
         "time": "9:00",
         "place": "Track 2",
@@ -606,7 +606,7 @@ var events = [
     {
         "name": "La sensibilidad y el poder del arte a trav\u00e9s de las palabras.",
         "description": "El arte tiene muchas ventanas para expresarse y en cada uno de nosotros, encuentra una manera particular y especial de conectar, el arte es la belleza de quienes somos, pero tambi\u00e9n expresa aquello que sentimos y que muchas veces no podemos explicar.",
-        "speaker": "Mildred Anabella Gonz\u00e1lez Lima",
+        "speaker": "Ana Mildred González",
         "day": "12",
         "time": "12:30",
         "place": "Track 3",

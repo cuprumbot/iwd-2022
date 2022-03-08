@@ -377,10 +377,10 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        "name": "Mildred Anabella Gonz\u00e1lez Lima",
+        "name": "Ana Mildred González",
         "short": "",
         "information": "Soy Ana Mildred Gonz\u00e1lez, tengo 24 a\u00f1os, me considera una persona trabajadora, fuerte, valiente y poderosa, pero tambi\u00e9n soy vulnerable, aprendo todos los d\u00edas y me esfuerzo por ser una mejor versi\u00f3n de m\u00ed para mi misma y para el mundo que me rodea; y en este camino de aprendizaje estoy impuls\u00e1ndome a salir de mi zona de confort y es por eso que decid\u00ed aplicar a esta convocatoria.\n\nSoy estudiante de Universidad Galileo, actualmente estudio el primer a\u00f1o de la Maestr\u00eda en Consultor\u00eda de Imagen P\u00fablica y Monitoreo de los Medios de Comunicaci\u00f3n.\n\nTrabajo en la rama de la tecnolog\u00eda en la empresa Estratek, pero al mismo tiempo estoy construyendo una carrera como escritora, actualmente estoy estudiando algunos cursos de escritura y tengo una p\u00e1gina llamada V\u00e9rsame, que es el espacio en donde comparto mi arte y mis palabras.\n\nEscribo desde hace muchos a\u00f1os y para m\u00ed escribir siempre ha sido un lugar seguro, un momento conmigo misma y un espacio para ser sincera, el arte y la escritura me han permitido conectar con muchas personas, pero sobre todo conmigo misma y por eso, fue el tema que decid\u00ed elegir para compartir.",
-        "image": "MildredAnabellaGonzalezLima.jpeg",
+        "image": "AnaMildredGonzalez.jpeg",
         "nationality": "guatemala"
     },
     {

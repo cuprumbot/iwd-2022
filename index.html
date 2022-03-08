@@ -227,37 +227,8 @@
             html += '<p>';
             html += '08:00 a 13:30 - Público en general';
             html += '</p>';
-
             html += '<span class="other">';
-
-            /*
-            html += '<br>Contaremos con los siguientes temas:';
-            html += '<ul>';
-            html += '<li>Technical track</li>';
-            html += '<li style="list-style-type:none"><ul>';
-            html += '   <li>Front-end</li>';
-            html += '   <li>Cloud Computing</li>';
-            html += '   <li>UI/UX</li>';
-            html += '   <li>Diseño gráfico</li>';
-            html += '   <li>Periodismo digital</li>';
-            html += '   <li>Machine Learning & Data Science</li>';
-            html += '</ul></li>';
-            html += '<li>People Skills track</li>';
-            html += '<li style="list-style-type:none"><ul>';
-            html += '   <li>Liderazgo</li>';
-            html += '   <li>Public speaking</li>';
-            html += '   <li>Diversidad</li>';
-            html += '   <li>Transformación digital</li>';
-            html += '   <li>Storytelling</li>';
-            html += '   <li>Marketing</li>';
-            html += '</ul></li>';
-            html += '</ul>';
-            html += 'Vuelve pronto para ver la agenda completa.';
-            html += '</span>';
-            */
-
             html += '<span class="events-container">';
-
 
         var oldDay = '0';
         var oldHour = 25;
@@ -328,19 +299,6 @@
                 }
 
                 html += (night)? '<span class="event-card night">' : '<span class="event-card shown">';
-
-                var speaker;
-                
-                var finded = false;
-                for(var i = 0; i < staff.length; i++){
-                    //console.log(event.speaker);
-                    speaker = staff[i];
-                    if(speaker.name == event.speaker){
-                        finded = true;
-                        break;
-                    }
-                }
-                
                 html += (night)? '<span class="event-time night">' : '<span class="event-time">';
                 html += '<span class="time">';
                 html += strTime;
@@ -374,35 +332,73 @@
                     html += '</span>';
                 }
 
-                
-                if(finded){
-                    html += '<span class="event-speaker">';
-                    html += '<span class="staff-image">';
-                    html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
-                    html += '</span>';
-                    html += '<span class="staff-name">';    /* find me staff */
 
-                    if (speaker.nationality != "empty" && speaker.nationality != "") {
-                        html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
+                if (typeof(event.speaker) == "string") {
+                    var speaker;                
+                    var finded = false;
+                    for(var i = 0; i < staff.length; i++){
+                        //console.log(event.speaker);
+                        speaker = staff[i];
+                        if(speaker.name == event.speaker){
+                            finded = true;
+                            break;
+                        }
                     }
+                    if(finded){
+                        html += '<span class="event-speaker">';
+                        html += '<span class="staff-image">';
+                        html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
+                        html += '</span>';
+                        html += '<span class="staff-name">';    /* find me staff */
 
-                    //html += speaker.name;
-                    html += event.speaker;
-                    html += '</span>';
-                    html += '</span>';
-                } else if (event.speaker != '') {
-                    html += '<span class="event-speaker">';
-                    html += '<span class="staff-image">';
-                    html += '<img class="img" img-path="assets/img/conf/default.png" src="assets/img/conf/default.png">';
-                    html += '</span>';
-                    html += '<span class="staff-name">';    /* find me staff */
-                    html += event.speaker;
-                    html += '</span>';
-                    html += '</span>';
+                        if (speaker.nationality != "empty" && speaker.nationality != "") {
+                            html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
+                        }
+
+                        //html += speaker.name;
+                        html += event.speaker;
+                        html += '</span>';
+                        html += '</span>';
+                    } else if (event.speaker != '') {
+                        html += '<span class="event-speaker">';
+                        html += '<span class="staff-image">';
+                        html += '<img class="img" img-path="assets/img/conf/default.png" src="assets/img/conf/default.png">';
+                        html += '</span>';
+                        html += '<span class="staff-name">';    /* find me staff */
+                        html += event.speaker;
+                        html += '</span>';
+                        html += '</span>';
+                    }
+                } else {
+                    
+                    /* multiples conferencistas en un evento */
+                    event.speaker.forEach((speakerName) => {
+                        for (var i = 0; i < staff.length; i++) {
+                            speaker = staff[i];
+                            if (speaker.name == speakerName) {
+
+                                html += '<span class="event-speaker">';
+                                html += '<span class="staff-image">';
+                                html += (speaker.image == null)? '' : `<img class="img" img-path="assets/img/conf/${speaker.image}" src="assets/img/conf/${speaker.image}">`;
+                                html += '</span>';
+                                html += '<span class="staff-name">';
+
+                                if (speaker.nationality != "empty" && speaker.nationality != "") {
+                                    html += `<span class="staff-flag"><img src="assets/img/paises/${speaker.nationality}.png"></span>`;
+                                }
+
+                                //html += speaker.name;
+                                html += speaker.name;
+                                html += '</span>';
+                                html += '</span>';
+
+                                break;
+                            }
+                        }
+                    });
                 }
 
                 html += '</span>';
-
                 html += '</span>';
             }
         });
@@ -524,7 +520,7 @@
 
         var oldDay = '0';
         events.forEach((event)=>{
-            if(event.speaker == name){
+            if(event.speaker == name || (typeof(event.speaker) == "object" && event.speaker.includes(name))){
 
                 var hour = parseInt(event.time.substring(0, 2));
                 var ap = (hour >= 12)? 'PM' : 'AM';
@@ -568,6 +564,14 @@
                 });
 
                 html += '</span>';
+
+                if(event.description != 'TBA' && event.description != '' && event.description != null){
+                    html += '<span class="event-description">';
+                    html += event.description;
+                    html += '</span>';
+                }
+
+                
                 html += '</span>';
 
                 html += '</span>';
