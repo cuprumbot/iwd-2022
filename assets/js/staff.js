@@ -341,6 +341,7 @@ var staff = [
         "image": "AdrianaFernandaMoya.png",
         "nationality": "colombia"
     },
+    /*
     {
         "name": "Mari\u00e1n Marcelle Berganza Jongezoon",
         "short": "",
@@ -348,6 +349,7 @@ var staff = [
         "image": "MarianMarcelleBerganzaJongezoon.jpeg",
         "nationality": "guatemala"
     },
+    */
     {
         "name": "Heymmy Sucely Saravia Ramirez",
         "short": "",
@@ -397,6 +399,7 @@ var staff = [
         "image": "AlejandraMariaCabreraRobles.jpeg",
         "nationality": "guatemala"
     },
+    /*
     {
         "name": "Jocelyn Jeannette Guerra Carias",
         "short": "",
@@ -404,6 +407,7 @@ var staff = [
         "image": "JocelynJeannetteGuerraCarias.jpeg",
         "nationality": "guatemala"
     },
+    */
     {
         "name": "Bayri Carolina Gonz\u00e1lez Morales",
         "short": "",
@@ -483,5 +487,19 @@ var staff = [
         "information": "",
         "image": "default.png",
         "nationality": "guatemala"
+    },
+    {
+        "name": "Marianne Springmuhl",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": "guatemala"
+    },
+    {
+        "name": "Laura Gutiérrez",
+        "short": "",
+        "information": "",
+        "image": "default.png",
+        "nationality": "nicaragua"
     }
 ];

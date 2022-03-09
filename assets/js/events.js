@@ -289,10 +289,22 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    /*
     {
         "name": "El Arte del Caos",
         "description": "Los seres humanos estamos hechos de la misma materia del Big Bang, 99% de caos y 0.03333% de orden. El arte del caos es mi forma de balancear mi vida en el caos.\nCuando nuestra chispa se apaga tenemos repercusiones físicas, emocionales y con esas dos se crea una cadena de enredos que pueden repercutir en nuestra área laboral o vida social. Cuando esto me sucedió durante la cuarentena mi solución fue incomodarme. Contaré que fue lo que pasó y como me volví a encontrar gracias al caos. Fue él, quien me sacó del modo piloto automático, a ser la mujer que soy hoy.",
         "speaker": "Marisa A Toriello",
+        "day": "11",
+        "time": "20:30",
+        "place": "Track 2",
+        "subjects": [],
+        "tba": "0"
+    },
+    */
+    {
+        "name": "Data storytelling",
+        "description": "",
+        "speaker": "Laura Gutiérrez",
         "day": "11",
         "time": "20:30",
         "place": "Track 2",
@@ -404,9 +416,9 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Android",
+        "name": "Combine, Declarative code and Reactive Code in Mobile",
         "description": "",
-        "speaker": "Dinorah Tovar",
+        "speaker": "Ceci Castillo",
         "day": "12",
         "time": "09:30",
         "place": "Track 2",
@@ -424,9 +436,9 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Combine, Declarative code and Reactive Code in Mobile",
+        "name": "   ",
         "description": "",
-        "speaker": "Ceci Castillo",
+        "speaker": "Marianne Springmuhl",
         "day": "12",
         "time": "10:00",
         "place": "Track 1",
@@ -514,8 +526,8 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "De IC a Manager a Technology Leadership Program Candidate",
-        "description": "",
+        "name": "La magia de salir de tu zona de comfort",
+        "description": "Visualiza hacia dónde te puede llevar aprender a estar cómodo en la incomodidad.",
         "speaker": "Alejandra Josue",
         "day": "12",
         "time": "11:30",
@@ -524,7 +536,7 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Business Intelligence",
+        "name": "Biomedics Data Science",
         "description": "",
         "speaker": "Andrea Paniagua",
         "day": "12",
@@ -553,6 +565,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    /*
     {
         "name": "Liderazgo Femenino en Industria Publicitaria",
         "description": "Compartiré la trayectoria de mi empresa, c\u00f3mo iniciamos, que barreras tuvimos, c\u00f3mo las enfrentamos, y sobre todo lo dif\u00edcil pero no imposible de emprender en una industria mayormente masculina, siendo mujer.",
@@ -563,6 +576,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    */
     {
         "name": "Comercio Internacional ante la crisis del Covid",
         "description": "Impacto del comercio a nivel mundial a partir de la pandemia y el rol de la mujer en las importaciones y exportaciones.",
@@ -633,6 +647,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    /*
     {
         "name": "La mujer como periodista digital",
         "description": "C\u00f3mo llegar a ser periodista en un medio digital en medio de una pandemia a nivel mundial",
@@ -643,6 +658,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    */
     {
         "name": "La importancia de la accesibilidad",
         "description": "Soy parte de la generaci\u00f3n que necesitar\u00e1 accesibilidad en el internet. Todos vamos a ser usuarios de accesibilidad en internet. Mientras nos hacemos mayores vamos perdiendo visibilidad, algo de color en nuestra vida, empieza una deficiencia en nuestra audici\u00f3n y definitivamente no nos volvemos m\u00e1s \u00e1giles o precisos con nuestras manos. Tendremos que ir aprendiendo a usar las herramientas de accesibilidad en el internet y podremos hacerlo si \u00e9stas existen.",
