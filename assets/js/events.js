@@ -357,6 +357,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    /*
     {
         "name": "Innovaci\u00f3n en proyectos sociales a trav\u00e9s del uso de las tecnolog\u00edas",
         "description": "Proyectos sociales",
@@ -367,6 +368,7 @@ var events = [
         "subjects": [],
         "tba": "0"
     },
+    */
     {
         "name": "Crece y florece",
         "description": "Crecer desde adentro es florecer hacia afuera\n- Metas con prop\u00f3sito: ¿Cu\u00e1l es tu visi\u00f3n para este 2022? ¿Conoces tu prop\u00f3sito? ¿Te sientes inspirada o motivada?\n- Elabora un plan de crecimiento que funcione: Establece un tiempo, busca un mentor, rod\u00e9ate de personas en tu misma sinton\u00eda, antic\u00edpate a los desv\u00edos",
@@ -421,7 +423,7 @@ var events = [
     {
         "name": "Mujeres con finanzas saludables",
         "description": "Un taller enfocado a qu\u00e9 las mujeres puedan crear una conexi\u00f3n personal con sus finanzas y conozcan los pasos para tener una vida financiera saludable, sin importar a qu\u00e9 se dediquen actualmente o su monto de ingresos\n\nCon este taller se les brindar\u00e1n herramientas para poner su vida financiera en orden",
-        "speaker": "Jessica Guadalupe Sian Mayorga",
+        "speaker": "Lupita Sian",
         "day": "12",
         "time": "09:30",
         "place": "Track 1",

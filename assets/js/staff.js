@@ -219,6 +219,7 @@ var staff = [
         "image": "IsisAnabelleOseidaLopez.jpg",
         "nationality": "guatemala"
     },
+    /*
     {
         "name": "Andrea Lourdes L\u00f3pez V\u00e9liz",
         "short": "",
@@ -226,6 +227,7 @@ var staff = [
         "image": "AndreaLourdesLopezVeliz.jpg",
         "nationality": "guatemala"
     },
+    */
     {
         "name": "Emma Cristina Acosta Vallecillo",
         "short": "",
@@ -257,7 +259,7 @@ var staff = [
         "nationality": "el salvador"
     },
     {
-        "name": "Jessica Guadalupe Sian Mayorga",
+        "name": "Lupita Sian",
         "short": "",
         "information": "Soy Lupita Sian, mujer empresaria e inversionista, Licenciada en Ciencias de la Comunicaci\u00f3n, conferencista y coach de vida, apasionada por el crecimiento personal.\n\nSue\u00f1o con trascender, impactando positivamente en la vida de millones de personas en todo el mundo, brindando, a trav\u00e9s mi Don de la Palabra, herramientas y oportunidades de desarrollo, liderazgo, finanzas y motivaci\u00f3n para mejorar su calidad de vida",
         "image": "JessicaGuadalupeSianMayorga.jpg",
@@ -498,8 +500,8 @@ var staff = [
     {
         "name": "Laura Gutiérrez",
         "short": "",
-        "information": "",
-        "image": "default.png",
+        "information": "Analista de Datos con un Bachelor of Science en Economía Aplicada, con 6 años de experiencia utilizando Ciencia de Datos en desarrollo de producto, analítica de personas y mercadeo digital.\n\nGlobal Shaper en Managua Hub, co-organizadora del GDG Managua, organizadora y embajadora de Women Techmakers Nicaragua, embajadora de WiDS Managua 2020-2022, facilitadora (gold-tier) y embajadora de la iniciativa #IamRemarkable, activamente alentando la Ciencia de Datos en Nicaragua.",
+        "image": "LauraGutierrez.jpg",
         "nationality": "nicaragua"
     },
     {
