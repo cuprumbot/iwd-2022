@@ -475,7 +475,7 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        "name": "Lorayne Padilla",
+        "name": "Maria José Aldana",
         "short": "",
         "information": "",
         "image": "default.png",
@@ -489,10 +489,10 @@ var staff = [
         "nationality": "guatemala"
     },
     {
-        "name": "Marianne Springmuhl",
+        "name": "Marianne Springmühl",
         "short": "",
-        "information": "",
-        "image": "default.png",
+        "information": "Experiencia en fusiones y adquisiciones, estrategia de negocios, ejecución de negocios, SaaS y ventas digitales. Apasiada de las SMEs y liderazgo femenino.\n\nSoy miembro de la junta en distintas entidades. Actualmente soy co-fundadora y CEO de Aly-ai.com: SaaS de marketing de adquisición digital y ventas con Inteligencia Artificial para anuncios de Facebook e Instagram. Cualquiera puede volverse una experta con tan solo unos clicks.\n\nCosas que amo: sentido común, liderazgo humilde, recaudación de capital.\n\nMis intereses personales son leyes y finanzas, AI, filosofía, personas y relaciones humanas. Mi inspiración viene de Dios y el Universo.\n\nFilosofía de vida y negocios: 'Years in minutes.'\n\nEstoy enfocada en la autorrealización profesional y personal. Firme creyente en el balance entre excelencia y ocio.",
+        "image": "MarianneSpringmuhl.jpg",
         "nationality": "guatemala"
     },
     {
@@ -501,5 +501,19 @@ var staff = [
         "information": "",
         "image": "default.png",
         "nationality": "nicaragua"
-    }
+    },
+    {
+        "name": "Lupe Canaviri Maydana",
+        "short": "",
+        "information": "Pythonista de corazón. Ingeniera de Software de etnia Aymara que constantemente investiga el punto donde el arte y la tecnología se encuentran. Intenta alcanzar este objetivo a través del desarrollo de proyectos y presentaciones (que involucran movimiento del cuerpo, danza, teatro y nuevas tecnologías) open-source.",
+        "image": "LupeCanaviriMaydana.jpg",
+        "nationality": "bolivia"
+    },
+    {
+        "name": "Ana Lucía Valle",
+        "short": "",
+        "information": "Licenciada en Química Farmacéutica. Máster en Toxicología. Doctora en Farmacología.\n\nDecana de la Facultad de Biología, Química y Farmacia, Universidad Galileo, desde 2009. Catedrática en el área desde 1998.\n\nConsultora y Directora Técnica de múltiples laboratorios en el periodo de 1999 a 2007. Miembro como especialista en la Comisión para la elaboración del Vademécum nacional de plantas medicinales (junio 2001). Supervisora de Formulación de Fitoterápicos (desde 1999). Representante en Guatemala del Panamerican Network for Drug Regulatory Harmonization (septiembre 2000). Representante de la Escuela de Química Farmacéutica en la Comisión para la Reingeniería del Instituto de Investigaciones Químicas y Biológicas, Facultad de CCQQ y Farmacia, USAC (2000)",
+        "image": "AnaLuciaValle.png",
+        "nationality": "guatemala"
+    },
 ];

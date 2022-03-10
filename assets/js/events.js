@@ -150,6 +150,19 @@ var events = [
         "tba": "0"
     },
     {
+        "name": "Atrévete a soñar: oportunidades para la formación científica",
+        "description": "Importancia de la formación científica para la mujer guatemalteca.",
+        "speaker": "Ana Lucía Valle",
+        "day": "11",
+        "time": "12:30",
+        "place": "Track 1",
+        "subjects": [],
+        "tba": "0"
+    },
+
+
+
+    {
         "name": "El poder de la anal\u00edtica",
         "description": "Orientada a Inteligencia de Negocios y el poder de los datos",
         "speaker": "Claudia Leticia Villatoro Ayala",
@@ -388,7 +401,7 @@ var events = [
     {
         "name": "Activismo digital",
         "description": "",
-        "speaker": ["Lorayne Padilla", "Andrea Beltrán"],
+        "speaker": ["Maria José Aldana", "Andrea Beltrán"],
         "day": "12",
         "time": "9:00",
         "place": "Track 2",
@@ -436,7 +449,7 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "   ",
+        "name": "Pendiente",
         "description": "",
         "speaker": "Marianne Springmuhl",
         "day": "12",
@@ -577,6 +590,16 @@ var events = [
         "tba": "0"
     },
     */
+    {
+        "name": "Pendiente",
+        "description": "",
+        "speaker": "Lupe Canaviri Maydana",
+        "day": "12",
+        "time": "12:00",
+        "place": "Track 2",
+        "subjects": [],
+        "tba": "0"
+    },
     {
         "name": "Comercio Internacional ante la crisis del Covid",
         "description": "Impacto del comercio a nivel mundial a partir de la pandemia y el rol de la mujer en las importaciones y exportaciones.",
