@@ -479,8 +479,8 @@ var staff = [
     {
         "name": "Maria José Aldana",
         "short": "",
-        "information": "",
-        "image": "default.png",
+        "information": "Tengo 20 años de edad, estudio Ciencias de la Comunicación. Soy parte de Red Interuniversitaria Seguras y Educadas.",
+        "image": "MariaJoseAldana.jpg",
         "nationality": "guatemala"
     },
     {

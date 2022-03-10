@@ -183,8 +183,8 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Kotlin",
-        "description": "",
+        "name": "¡Quiero hacer un chat!, ¿Por dónde empiezo?",
+        "description": "Una de las decisiones más importantes es elegir qué protocolo de mensajería utilizar. Vamos a comparar dos de los protocolos más populares que existen, y al final, presentar el ejemplo de una arquitectura.",
         "speaker": "Andrea Magaly Mendoza",
         "day": "11",
         "time": "18:25",
