@@ -486,8 +486,8 @@ var staff = [
     {
         "name": "Andrea Beltrán",
         "short": "",
-        "information": "",
-        "image": "default.png",
+        "information": "Es integrante de RISE desde 2021, mismo año en que participó en iniciativas de la ONU como el ECOSOC Youth Forum y el Generation Equality Forum. Se formó en el entrenamiento de Climate Reality Project y estuvo presente en la conferencia Latin American Voices in Politics organizada por la Universidad de Stanford, el Virtual Youth Summit de Global Changemakers, el Virtual Global Girl Up Leadership Summit y es miembro de la Red Iberoamericana de Seguimiento a la Agenda 2030. Este 2022 ha estado involucrada en las conversaciones de la Global Youth Enviromental Assambly incluyendo la Youth Stockholm+50 Assambly. Igualmente es la actual vocal de arte y cultura de la Asociación General de la Universidad del Valle de Guatemala 2022.\n\nAsimismo, se ha desempeñado en organizaciones juveniles nacionales e internacionales como mentora, puestos directivos y voluntaria.",
+        "image": "AndreaBeltran.jpg",
         "nationality": "guatemala"
     },
     {

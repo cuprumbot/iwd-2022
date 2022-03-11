@@ -451,7 +451,7 @@ var events = [
         "tba": "0"
     },
     {
-        "name": "Pendiente",
+        "name": "Mujeres y Tecnología",
         "description": "",
         "speaker": "Marianne Springmuhl",
         "day": "12",
