@@ -507,7 +507,7 @@ var staff = [
     {
         "name": "Lupe Canaviri Maydana",
         "short": "",
-        "information": "Pythonista de corazón. Ingeniera de Software de etnia Aymara que constantemente investiga el punto donde el arte y la tecnología se encuentran. Intenta alcanzar este objetivo a través del desarrollo de proyectos y presentaciones (que involucran movimiento del cuerpo, danza, teatro y nuevas tecnologías) open-source.",
+        "information": "Lupe es ingeniera de software en Microsoft enfocada en proyectos relacionados a experiencias web.  Antes de Microsoft trabajaba como Lead Front End coach en Laboratoria",
         "image": "LupeCanaviriMaydana.jpg",
         "nationality": "bolivia"
     },
