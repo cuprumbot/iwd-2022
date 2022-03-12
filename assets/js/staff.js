@@ -483,6 +483,7 @@ var staff = [
         "image": "MariaJoseAldana.jpg",
         "nationality": "guatemala"
     },
+    /*
     {
         "name": "Andrea Beltrán",
         "short": "",
@@ -490,6 +491,7 @@ var staff = [
         "image": "AndreaBeltran.jpg",
         "nationality": "guatemala"
     },
+    */
     {
         "name": "Marianne Springmühl",
         "short": "",

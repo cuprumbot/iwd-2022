@@ -403,7 +403,7 @@ var events = [
     {
         "name": "Activismo digital",
         "description": "",
-        "speaker": ["Maria José Aldana", "Andrea Beltrán"],
+        "speaker": "Maria José Aldana",
         "day": "12",
         "time": "9:00",
         "place": "Track 2",
